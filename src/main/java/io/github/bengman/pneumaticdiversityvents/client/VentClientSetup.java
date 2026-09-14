@@ -7,6 +7,7 @@ import net.minecraft.client.Minecraft;
 import net.minecraft.client.renderer.RenderType;
 import net.minecraft.client.renderer.RenderTypeLookup;
 import net.minecraftforge.api.distmarker.Dist;
+import net.minecraftforge.client.event.ModelBakeEvent;
 import net.minecraftforge.client.event.ParticleFactoryRegisterEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
@@ -29,6 +30,14 @@ public final class VentClientSetup {
             RenderTypeLookup.setRenderLayer(PneumaticDiversityVents.VENT_SCANNER_BLOCK.get(), RenderType.translucent());
             RenderTypeLookup.setRenderLayer(PneumaticDiversityVents.VENT_JUNCTION_BLOCK.get(), RenderType.translucent());
         });
+    }
+
+    @SubscribeEvent
+    public static void makeScannerGridFullbright(ModelBakeEvent event) {
+        event.getModelRegistry().replaceAll((location, model) ->
+                PneumaticDiversityVents.MOD_ID.equals(location.getNamespace())
+                        && "vent_scanner".equals(location.getPath())
+                        ? new ScannerFullbrightModel(model) : model);
     }
 
     @SubscribeEvent

@@ -33,7 +33,8 @@ public final class VentAmbientSoundClient {
     private VentAmbientSoundClient() {
     }
 
-    public static void accept(List<VentAmbientSoundPacket.NetworkSound> networks, List<VentAmbientSoundPacket.ImpellerSound> impellers, List<VentAmbientSoundPacket.PortalSound> portals) {
+    public static void accept(List<VentAmbientSoundPacket.NetworkSound> networks, List<VentAmbientSoundPacket.ImpellerSound> impellers,
+                              List<VentAmbientSoundPacket.PortalSound> portals) {
         Minecraft minecraft = Minecraft.getInstance();
         if (minecraft.level == null || minecraft.player == null) {
             clear();
@@ -258,4 +259,5 @@ public final class VentAmbientSoundClient {
             apply();
         }
     }
+
 }

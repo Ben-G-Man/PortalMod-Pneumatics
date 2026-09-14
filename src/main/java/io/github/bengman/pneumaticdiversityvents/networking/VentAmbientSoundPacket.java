@@ -27,7 +27,8 @@ public final class VentAmbientSoundPacket {
         this.portals = Collections.unmodifiableList(new ArrayList<>(portals));
     }
 
-    public static VentAmbientSoundPacket fromWorld(VentSpatialRegistry registry, List<VentExternalFieldManager.PortalSoundSource> portalSources) {
+    public static VentAmbientSoundPacket fromWorld(VentSpatialRegistry registry,
+                                                   List<VentExternalFieldManager.PortalSoundSource> portalSources) {
         List<NetworkSound> networks = new ArrayList<>();
         for (VentSpatialRegistry.ActiveNetworkSound source : registry.getActiveNetworkSounds())
             networks.add(new NetworkSound(source.getNetworkId(), source.getNetForce(), source.getSourcePoints()));
@@ -76,7 +77,8 @@ public final class VentAmbientSoundPacket {
 
     public static void handle(VentAmbientSoundPacket packet, Supplier<NetworkEvent.Context> contextSupplier) {
         NetworkEvent.Context context = contextSupplier.get();
-        context.enqueueWork(() -> DistExecutor.unsafeRunWhenOn(Dist.CLIENT, () -> () -> VentAmbientSoundClient.accept(packet.networks, packet.impellers, packet.portals)));
+        context.enqueueWork(() -> DistExecutor.unsafeRunWhenOn(Dist.CLIENT,
+                () -> () -> VentAmbientSoundClient.accept(packet.networks, packet.impellers, packet.portals)));
         context.setPacketHandled(true);
     }
 

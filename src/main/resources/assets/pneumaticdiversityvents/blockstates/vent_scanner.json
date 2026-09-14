@@ -17,38 +17,38 @@
       "y": 270
     },
     "axis=x,corner=bottom_right,visual=cubes_off": {
-      "model": "pneumaticdiversityvents:block/vent/scanner/cubes/unpowered/model",
+      "model": "pneumaticdiversityvents:block/vent/scanner/cubes/unpowered/model_mirrored",
       "y": 90
     },
     "axis=x,corner=bottom_right,visual=cubes_on": {
-      "model": "pneumaticdiversityvents:block/vent/scanner/cubes/powered/model",
+      "model": "pneumaticdiversityvents:block/vent/scanner/cubes/powered/model_mirrored",
       "y": 90
     },
     "axis=x,corner=bottom_right,visual=player_off": {
-      "model": "pneumaticdiversityvents:block/vent/scanner/player/unpowered/model",
+      "model": "pneumaticdiversityvents:block/vent/scanner/player/unpowered/model_mirrored",
       "y": 90
     },
     "axis=x,corner=bottom_right,visual=player_on": {
-      "model": "pneumaticdiversityvents:block/vent/scanner/player/powered/model",
+      "model": "pneumaticdiversityvents:block/vent/scanner/player/powered/model_mirrored",
       "y": 90
     },
     "axis=x,corner=top_left,visual=cubes_off": {
-      "model": "pneumaticdiversityvents:block/vent/scanner/cubes/unpowered/model",
+      "model": "pneumaticdiversityvents:block/vent/scanner/cubes/unpowered/model_mirrored",
       "x": 180,
       "y": 270
     },
     "axis=x,corner=top_left,visual=cubes_on": {
-      "model": "pneumaticdiversityvents:block/vent/scanner/cubes/powered/model",
+      "model": "pneumaticdiversityvents:block/vent/scanner/cubes/powered/model_mirrored",
       "x": 180,
       "y": 270
     },
     "axis=x,corner=top_left,visual=player_off": {
-      "model": "pneumaticdiversityvents:block/vent/scanner/player/unpowered/model",
+      "model": "pneumaticdiversityvents:block/vent/scanner/player/unpowered/model_mirrored",
       "x": 180,
       "y": 270
     },
     "axis=x,corner=top_left,visual=player_on": {
-      "model": "pneumaticdiversityvents:block/vent/scanner/player/powered/model",
+      "model": "pneumaticdiversityvents:block/vent/scanner/player/powered/model_mirrored",
       "x": 180,
       "y": 270
     },
@@ -149,19 +149,19 @@
       "y": 270
     },
     "axis=z,corner=bottom_left,visual=cubes_off": {
-      "model": "pneumaticdiversityvents:block/vent/scanner/cubes/unpowered/model",
+      "model": "pneumaticdiversityvents:block/vent/scanner/cubes/unpowered/model_mirrored",
       "y": 180
     },
     "axis=z,corner=bottom_left,visual=cubes_on": {
-      "model": "pneumaticdiversityvents:block/vent/scanner/cubes/powered/model",
+      "model": "pneumaticdiversityvents:block/vent/scanner/cubes/powered/model_mirrored",
       "y": 180
     },
     "axis=z,corner=bottom_left,visual=player_off": {
-      "model": "pneumaticdiversityvents:block/vent/scanner/player/unpowered/model",
+      "model": "pneumaticdiversityvents:block/vent/scanner/player/unpowered/model_mirrored",
       "y": 180
     },
     "axis=z,corner=bottom_left,visual=player_on": {
-      "model": "pneumaticdiversityvents:block/vent/scanner/player/powered/model",
+      "model": "pneumaticdiversityvents:block/vent/scanner/player/powered/model_mirrored",
       "y": 180
     },
     "axis=z,corner=bottom_right,visual=cubes_off": {
@@ -197,19 +197,19 @@
       "y": 180
     },
     "axis=z,corner=top_right,visual=cubes_off": {
-      "model": "pneumaticdiversityvents:block/vent/scanner/cubes/unpowered/model",
+      "model": "pneumaticdiversityvents:block/vent/scanner/cubes/unpowered/model_mirrored",
       "x": 180
     },
     "axis=z,corner=top_right,visual=cubes_on": {
-      "model": "pneumaticdiversityvents:block/vent/scanner/cubes/powered/model",
+      "model": "pneumaticdiversityvents:block/vent/scanner/cubes/powered/model_mirrored",
       "x": 180
     },
     "axis=z,corner=top_right,visual=player_off": {
-      "model": "pneumaticdiversityvents:block/vent/scanner/player/unpowered/model",
+      "model": "pneumaticdiversityvents:block/vent/scanner/player/unpowered/model_mirrored",
       "x": 180
     },
     "axis=z,corner=top_right,visual=player_on": {
-      "model": "pneumaticdiversityvents:block/vent/scanner/player/powered/model",
+      "model": "pneumaticdiversityvents:block/vent/scanner/player/powered/model_mirrored",
       "x": 180
     }
   }

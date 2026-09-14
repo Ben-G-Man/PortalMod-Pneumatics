@@ -1,5 +1,5 @@
 {
-  "parent": "pneumaticdiversityvents:block/vent/scanner/base",
+  "parent": "pneumaticdiversityvents:block/vent/scanner/base_mirrored",
   "textures": {
     "0": "pneumaticdiversityvents:block/vent/scanner/cubes/powered/outer",
     "particle": "pneumaticdiversityvents:block/vent/break/glass"

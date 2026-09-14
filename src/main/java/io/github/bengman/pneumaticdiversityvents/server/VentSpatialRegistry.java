@@ -355,6 +355,7 @@ public final class VentSpatialRegistry extends WorldSavedData {
         return Collections.unmodifiableList(result);
     }
 
+
     public synchronized void register(VentEdge edge, Collection<BlockPos> blocks, Collection<WorldVentConnection> connections) {
         List<BlockPos> blockList = immutableBlocks(blocks);
         Map<UUID, WorldVentConnection> connectionMap = validate(edge, blockList, connections);
@@ -770,6 +771,7 @@ public final class VentSpatialRegistry extends WorldSavedData {
             return strained;
         }
     }
+
 
     private static final class ConnectionKey {
         private final long coordinate;

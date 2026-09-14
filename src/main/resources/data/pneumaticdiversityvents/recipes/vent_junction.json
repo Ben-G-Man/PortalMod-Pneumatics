@@ -1,22 +1,19 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "ISI",
-    "RGR",
-    "ISI"
+    " S",
+    "ST",
+    " I"
   ],
   "key": {
     "I": {
-      "item": "minecraft:iron_ingot"
+      "item": "portalmod:antline_indicator"
     },
     "S": {
       "item": "pneumaticdiversityvents:vent_segment"
     },
-    "R": {
-      "item": "minecraft:redstone"
-    },
-    "G": {
-      "item": "minecraft:glass"
+    "T": {
+      "item": "minecraft:iron_trapdoor"
     }
   },
   "result": {

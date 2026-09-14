@@ -7,7 +7,7 @@
   ],
   "textures": {
     "0": "pneumaticdiversityvents:block/vent/segment/short_frame",
-    "2": "pneumaticdiversityvents:block/vent/impeller/shared/outer",
+    "2": "pneumaticdiversityvents:block/vent/impeller/default/outer",
     "3": "pneumaticdiversityvents:block/vent/impeller/shared/inner",
     "4": "pneumaticdiversityvents:block/vent/impeller/shared/blade_forward",
     "particle": "pneumaticdiversityvents:block/vent/break/case"

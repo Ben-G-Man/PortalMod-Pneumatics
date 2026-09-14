@@ -1,16 +1,16 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "RGR",
-    "GSG",
-    "RGR"
+    " A",
+    "SO",
+    " A"
   ],
   "key": {
-    "R": {
-      "item": "minecraft:redstone"
+    "A": {
+      "item": "portalmod:antline"
     },
-    "G": {
-      "item": "minecraft:glass_pane"
+    "O": {
+      "item": "minecraft:observer"
     },
     "S": {
       "item": "pneumaticdiversityvents:vent_segment"

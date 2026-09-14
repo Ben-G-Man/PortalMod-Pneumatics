@@ -1,16 +1,16 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "IRI",
-    "RPR",
-    "IRI"
+    " P",
+    "SIS",
+    " P"
   ],
   "key": {
     "I": {
-      "item": "minecraft:iron_ingot"
+      "item": "minecraft:iron_block"
     },
-    "R": {
-      "item": "minecraft:redstone"
+    "S": {
+      "item": "pneumaticdiversityvents:vent_segment"
     },
     "P": {
       "item": "minecraft:piston"

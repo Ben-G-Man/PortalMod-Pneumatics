@@ -1,20 +1,20 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "IGI",
-    "G G",
-    "IGI"
+    "III",
+    "GGG",
+    "III"
   ],
   "key": {
     "I": {
-      "item": "minecraft:iron_ingot"
+      "item": "minecraft:iron_bars"
     },
     "G": {
-      "item": "minecraft:glass_pane"
+      "tag": "forge:glass"
     }
   },
   "result": {
     "item": "pneumaticdiversityvents:vent_segment",
-    "count": 2
+    "count": 4
   }
 }

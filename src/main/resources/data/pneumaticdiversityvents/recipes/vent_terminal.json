@@ -1,16 +1,13 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "III",
-    "GSG",
-    "III"
+    "II",
+    "S",
+    "II"
   ],
   "key": {
     "I": {
       "item": "minecraft:iron_ingot"
-    },
-    "G": {
-      "item": "minecraft:glass_pane"
     },
     "S": {
       "item": "pneumaticdiversityvents:vent_segment"

@@ -1,0 +1,7 @@
+{
+  "parent": "pneumaticdiversityvents:block/vent/terminal/player/body_negative_z",
+  "textures": {
+    "3": "pneumaticdiversityvents:block/vent/terminal/player/unpowered/outer",
+    "particle": "pneumaticdiversityvents:block/vent/break/case"
+  }
+}

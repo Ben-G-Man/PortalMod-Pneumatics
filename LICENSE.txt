@@ -1,0 +1,28 @@
+Pneumatic Diversity Vents Attribution License
+
+Copyright (c) 2026 Benjamin Hume
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of
+this software and associated source code, assets, documentation, and other files
+(the "Software"), to use, copy, modify, merge, publish, distribute, sublicense,
+and/or sell copies of the Software, and to permit others to do the same, subject
+to the following conditions:
+
+1. The above copyright notice and this license notice must be included in all
+   copies or substantial portions of the Software.
+
+2. Any redistribution or derivative work must provide reasonable attribution to
+   Benjamin Hume as the original author of Pneumatic Diversity Vents. This
+   attribution may be provided in accompanying documentation, credits, an
+   acknowledgements section, or another location reasonably visible to recipients
+   of the redistributed work.
+
+3. Modified versions must not imply endorsement by, or official affiliation with,
+   the original author unless explicit permission has been granted.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS
+FOR A PARTICULAR PURPOSE, AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHOR OR
+COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY, WHETHER
+IN AN ACTION OF CONTRACT, TORT, OR OTHERWISE, ARISING FROM, OUT OF, OR IN
+CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.

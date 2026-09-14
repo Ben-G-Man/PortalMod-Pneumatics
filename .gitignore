@@ -1,0 +1,26 @@
+# Gradle / ForgeGradle
+.gradle/
+build/
+run/
+run-data/
+
+# IDEs
+.vscode/
+.idea/
+.settings/
+.metadata/
+.classpath
+.project
+*.iml
+*.ipr
+*.iws
+*.launch
+out/
+bin/
+eclipse/
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+*.swp
+*~

@@ -1,0 +1,2124 @@
+{
+  "variants": {
+    "axis=x,corner=bottom_left,mirrored=false,outward_positive=false,part=body,visual=normal": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/default/body_negative_z",
+      "y": 270
+    },
+    "axis=x,corner=bottom_left,mirrored=false,outward_positive=false,part=body,visual=force_off": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/force/unpowered/body_negative_z",
+      "y": 270
+    },
+    "axis=x,corner=bottom_left,mirrored=false,outward_positive=false,part=body,visual=force_on": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/force/powered/body_negative_z",
+      "y": 270
+    },
+    "axis=x,corner=bottom_left,mirrored=false,outward_positive=false,part=body,visual=player_off": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/player/unpowered/body_negative_z",
+      "y": 270
+    },
+    "axis=x,corner=bottom_left,mirrored=false,outward_positive=false,part=body,visual=player_on": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/player/powered/body_negative_z",
+      "y": 270
+    },
+    "axis=x,corner=bottom_left,mirrored=false,outward_positive=false,part=tip,visual=normal": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/default/tip_positive_z",
+      "y": 270
+    },
+    "axis=x,corner=bottom_left,mirrored=false,outward_positive=false,part=tip,visual=force_off": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/force/unpowered/tip_positive_z",
+      "y": 270
+    },
+    "axis=x,corner=bottom_left,mirrored=false,outward_positive=false,part=tip,visual=force_on": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/force/powered/tip_positive_z",
+      "y": 270
+    },
+    "axis=x,corner=bottom_left,mirrored=false,outward_positive=false,part=tip,visual=player_off": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/player/unpowered/tip_positive_z",
+      "y": 270
+    },
+    "axis=x,corner=bottom_left,mirrored=false,outward_positive=false,part=tip,visual=player_on": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/player/powered/tip_positive_z",
+      "y": 270
+    },
+    "axis=x,corner=bottom_left,mirrored=false,outward_positive=true,part=body,visual=normal": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/default/body_positive_z",
+      "y": 270
+    },
+    "axis=x,corner=bottom_left,mirrored=false,outward_positive=true,part=body,visual=force_off": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/force/unpowered/body_positive_z",
+      "y": 270
+    },
+    "axis=x,corner=bottom_left,mirrored=false,outward_positive=true,part=body,visual=force_on": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/force/powered/body_positive_z",
+      "y": 270
+    },
+    "axis=x,corner=bottom_left,mirrored=false,outward_positive=true,part=body,visual=player_off": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/player/unpowered/body_positive_z",
+      "y": 270
+    },
+    "axis=x,corner=bottom_left,mirrored=false,outward_positive=true,part=body,visual=player_on": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/player/powered/body_positive_z",
+      "y": 270
+    },
+    "axis=x,corner=bottom_left,mirrored=false,outward_positive=true,part=tip,visual=normal": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/default/tip_negative_z",
+      "y": 270
+    },
+    "axis=x,corner=bottom_left,mirrored=false,outward_positive=true,part=tip,visual=force_off": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/force/unpowered/tip_negative_z",
+      "y": 270
+    },
+    "axis=x,corner=bottom_left,mirrored=false,outward_positive=true,part=tip,visual=force_on": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/force/powered/tip_negative_z",
+      "y": 270
+    },
+    "axis=x,corner=bottom_left,mirrored=false,outward_positive=true,part=tip,visual=player_off": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/player/unpowered/tip_negative_z",
+      "y": 270
+    },
+    "axis=x,corner=bottom_left,mirrored=false,outward_positive=true,part=tip,visual=player_on": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/player/powered/tip_negative_z",
+      "y": 270
+    },
+    "axis=x,corner=bottom_left,mirrored=true,outward_positive=false,part=body,visual=normal": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/default/body_negative_z",
+      "y": 270
+    },
+    "axis=x,corner=bottom_left,mirrored=true,outward_positive=false,part=body,visual=force_off": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/force/unpowered/body_negative_z",
+      "y": 270
+    },
+    "axis=x,corner=bottom_left,mirrored=true,outward_positive=false,part=body,visual=force_on": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/force/powered/body_negative_z",
+      "y": 270
+    },
+    "axis=x,corner=bottom_left,mirrored=true,outward_positive=false,part=body,visual=player_off": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/player/unpowered/body_negative_z",
+      "y": 270
+    },
+    "axis=x,corner=bottom_left,mirrored=true,outward_positive=false,part=body,visual=player_on": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/player/powered/body_negative_z",
+      "y": 270
+    },
+    "axis=x,corner=bottom_left,mirrored=true,outward_positive=false,part=tip,visual=normal": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/default/tip_positive_z",
+      "y": 270
+    },
+    "axis=x,corner=bottom_left,mirrored=true,outward_positive=false,part=tip,visual=force_off": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/force/unpowered/tip_positive_z",
+      "y": 270
+    },
+    "axis=x,corner=bottom_left,mirrored=true,outward_positive=false,part=tip,visual=force_on": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/force/powered/tip_positive_z",
+      "y": 270
+    },
+    "axis=x,corner=bottom_left,mirrored=true,outward_positive=false,part=tip,visual=player_off": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/player/unpowered/tip_positive_z",
+      "y": 270
+    },
+    "axis=x,corner=bottom_left,mirrored=true,outward_positive=false,part=tip,visual=player_on": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/player/powered/tip_positive_z",
+      "y": 270
+    },
+    "axis=x,corner=bottom_left,mirrored=true,outward_positive=true,part=body,visual=normal": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/default/body_positive_z",
+      "y": 270
+    },
+    "axis=x,corner=bottom_left,mirrored=true,outward_positive=true,part=body,visual=force_off": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/force/unpowered/body_positive_z",
+      "y": 270
+    },
+    "axis=x,corner=bottom_left,mirrored=true,outward_positive=true,part=body,visual=force_on": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/force/powered/body_positive_z",
+      "y": 270
+    },
+    "axis=x,corner=bottom_left,mirrored=true,outward_positive=true,part=body,visual=player_off": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/player/unpowered/body_positive_z",
+      "y": 270
+    },
+    "axis=x,corner=bottom_left,mirrored=true,outward_positive=true,part=body,visual=player_on": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/player/powered/body_positive_z",
+      "y": 270
+    },
+    "axis=x,corner=bottom_left,mirrored=true,outward_positive=true,part=tip,visual=normal": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/default/tip_negative_z",
+      "y": 270
+    },
+    "axis=x,corner=bottom_left,mirrored=true,outward_positive=true,part=tip,visual=force_off": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/force/unpowered/tip_negative_z",
+      "y": 270
+    },
+    "axis=x,corner=bottom_left,mirrored=true,outward_positive=true,part=tip,visual=force_on": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/force/powered/tip_negative_z",
+      "y": 270
+    },
+    "axis=x,corner=bottom_left,mirrored=true,outward_positive=true,part=tip,visual=player_off": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/player/unpowered/tip_negative_z",
+      "y": 270
+    },
+    "axis=x,corner=bottom_left,mirrored=true,outward_positive=true,part=tip,visual=player_on": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/player/powered/tip_negative_z",
+      "y": 270
+    },
+    "axis=x,corner=bottom_right,mirrored=false,outward_positive=false,part=body,visual=normal": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/default/body_positive_z",
+      "y": 90
+    },
+    "axis=x,corner=bottom_right,mirrored=false,outward_positive=false,part=body,visual=force_off": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/force/unpowered/body_positive_z",
+      "y": 90
+    },
+    "axis=x,corner=bottom_right,mirrored=false,outward_positive=false,part=body,visual=force_on": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/force/powered/body_positive_z",
+      "y": 90
+    },
+    "axis=x,corner=bottom_right,mirrored=false,outward_positive=false,part=body,visual=player_off": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/player/unpowered/body_positive_z",
+      "y": 90
+    },
+    "axis=x,corner=bottom_right,mirrored=false,outward_positive=false,part=body,visual=player_on": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/player/powered/body_positive_z",
+      "y": 90
+    },
+    "axis=x,corner=bottom_right,mirrored=false,outward_positive=false,part=tip,visual=normal": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/default/tip_negative_z",
+      "y": 90
+    },
+    "axis=x,corner=bottom_right,mirrored=false,outward_positive=false,part=tip,visual=force_off": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/force/unpowered/tip_negative_z",
+      "y": 90
+    },
+    "axis=x,corner=bottom_right,mirrored=false,outward_positive=false,part=tip,visual=force_on": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/force/powered/tip_negative_z",
+      "y": 90
+    },
+    "axis=x,corner=bottom_right,mirrored=false,outward_positive=false,part=tip,visual=player_off": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/player/unpowered/tip_negative_z",
+      "y": 90
+    },
+    "axis=x,corner=bottom_right,mirrored=false,outward_positive=false,part=tip,visual=player_on": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/player/powered/tip_negative_z",
+      "y": 90
+    },
+    "axis=x,corner=bottom_right,mirrored=false,outward_positive=true,part=body,visual=normal": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/default/body_negative_z",
+      "y": 90
+    },
+    "axis=x,corner=bottom_right,mirrored=false,outward_positive=true,part=body,visual=force_off": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/force/unpowered/body_negative_z",
+      "y": 90
+    },
+    "axis=x,corner=bottom_right,mirrored=false,outward_positive=true,part=body,visual=force_on": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/force/powered/body_negative_z",
+      "y": 90
+    },
+    "axis=x,corner=bottom_right,mirrored=false,outward_positive=true,part=body,visual=player_off": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/player/unpowered/body_negative_z",
+      "y": 90
+    },
+    "axis=x,corner=bottom_right,mirrored=false,outward_positive=true,part=body,visual=player_on": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/player/powered/body_negative_z",
+      "y": 90
+    },
+    "axis=x,corner=bottom_right,mirrored=false,outward_positive=true,part=tip,visual=normal": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/default/tip_positive_z",
+      "y": 90
+    },
+    "axis=x,corner=bottom_right,mirrored=false,outward_positive=true,part=tip,visual=force_off": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/force/unpowered/tip_positive_z",
+      "y": 90
+    },
+    "axis=x,corner=bottom_right,mirrored=false,outward_positive=true,part=tip,visual=force_on": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/force/powered/tip_positive_z",
+      "y": 90
+    },
+    "axis=x,corner=bottom_right,mirrored=false,outward_positive=true,part=tip,visual=player_off": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/player/unpowered/tip_positive_z",
+      "y": 90
+    },
+    "axis=x,corner=bottom_right,mirrored=false,outward_positive=true,part=tip,visual=player_on": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/player/powered/tip_positive_z",
+      "y": 90
+    },
+    "axis=x,corner=bottom_right,mirrored=true,outward_positive=false,part=body,visual=normal": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/default/body_positive_z",
+      "y": 90
+    },
+    "axis=x,corner=bottom_right,mirrored=true,outward_positive=false,part=body,visual=force_off": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/force/unpowered/body_positive_z",
+      "y": 90
+    },
+    "axis=x,corner=bottom_right,mirrored=true,outward_positive=false,part=body,visual=force_on": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/force/powered/body_positive_z",
+      "y": 90
+    },
+    "axis=x,corner=bottom_right,mirrored=true,outward_positive=false,part=body,visual=player_off": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/player/unpowered/body_positive_z",
+      "y": 90
+    },
+    "axis=x,corner=bottom_right,mirrored=true,outward_positive=false,part=body,visual=player_on": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/player/powered/body_positive_z",
+      "y": 90
+    },
+    "axis=x,corner=bottom_right,mirrored=true,outward_positive=false,part=tip,visual=normal": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/default/tip_negative_z",
+      "y": 90
+    },
+    "axis=x,corner=bottom_right,mirrored=true,outward_positive=false,part=tip,visual=force_off": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/force/unpowered/tip_negative_z",
+      "y": 90
+    },
+    "axis=x,corner=bottom_right,mirrored=true,outward_positive=false,part=tip,visual=force_on": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/force/powered/tip_negative_z",
+      "y": 90
+    },
+    "axis=x,corner=bottom_right,mirrored=true,outward_positive=false,part=tip,visual=player_off": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/player/unpowered/tip_negative_z",
+      "y": 90
+    },
+    "axis=x,corner=bottom_right,mirrored=true,outward_positive=false,part=tip,visual=player_on": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/player/powered/tip_negative_z",
+      "y": 90
+    },
+    "axis=x,corner=bottom_right,mirrored=true,outward_positive=true,part=body,visual=normal": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/default/body_negative_z",
+      "y": 90
+    },
+    "axis=x,corner=bottom_right,mirrored=true,outward_positive=true,part=body,visual=force_off": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/force/unpowered/body_negative_z",
+      "y": 90
+    },
+    "axis=x,corner=bottom_right,mirrored=true,outward_positive=true,part=body,visual=force_on": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/force/powered/body_negative_z",
+      "y": 90
+    },
+    "axis=x,corner=bottom_right,mirrored=true,outward_positive=true,part=body,visual=player_off": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/player/unpowered/body_negative_z",
+      "y": 90
+    },
+    "axis=x,corner=bottom_right,mirrored=true,outward_positive=true,part=body,visual=player_on": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/player/powered/body_negative_z",
+      "y": 90
+    },
+    "axis=x,corner=bottom_right,mirrored=true,outward_positive=true,part=tip,visual=normal": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/default/tip_positive_z",
+      "y": 90
+    },
+    "axis=x,corner=bottom_right,mirrored=true,outward_positive=true,part=tip,visual=force_off": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/force/unpowered/tip_positive_z",
+      "y": 90
+    },
+    "axis=x,corner=bottom_right,mirrored=true,outward_positive=true,part=tip,visual=force_on": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/force/powered/tip_positive_z",
+      "y": 90
+    },
+    "axis=x,corner=bottom_right,mirrored=true,outward_positive=true,part=tip,visual=player_off": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/player/unpowered/tip_positive_z",
+      "y": 90
+    },
+    "axis=x,corner=bottom_right,mirrored=true,outward_positive=true,part=tip,visual=player_on": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/player/powered/tip_positive_z",
+      "y": 90
+    },
+    "axis=x,corner=top_left,mirrored=false,outward_positive=false,part=body,visual=normal": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/default/body_positive_z",
+      "x": 180,
+      "y": 270
+    },
+    "axis=x,corner=top_left,mirrored=false,outward_positive=false,part=body,visual=force_off": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/force/unpowered/body_positive_z",
+      "x": 180,
+      "y": 270
+    },
+    "axis=x,corner=top_left,mirrored=false,outward_positive=false,part=body,visual=force_on": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/force/powered/body_positive_z",
+      "x": 180,
+      "y": 270
+    },
+    "axis=x,corner=top_left,mirrored=false,outward_positive=false,part=body,visual=player_off": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/player/unpowered/body_positive_z",
+      "x": 180,
+      "y": 270
+    },
+    "axis=x,corner=top_left,mirrored=false,outward_positive=false,part=body,visual=player_on": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/player/powered/body_positive_z",
+      "x": 180,
+      "y": 270
+    },
+    "axis=x,corner=top_left,mirrored=false,outward_positive=false,part=tip,visual=normal": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/default/tip_negative_z",
+      "x": 180,
+      "y": 270
+    },
+    "axis=x,corner=top_left,mirrored=false,outward_positive=false,part=tip,visual=force_off": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/force/unpowered/tip_negative_z",
+      "x": 180,
+      "y": 270
+    },
+    "axis=x,corner=top_left,mirrored=false,outward_positive=false,part=tip,visual=force_on": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/force/powered/tip_negative_z",
+      "x": 180,
+      "y": 270
+    },
+    "axis=x,corner=top_left,mirrored=false,outward_positive=false,part=tip,visual=player_off": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/player/unpowered/tip_negative_z",
+      "x": 180,
+      "y": 270
+    },
+    "axis=x,corner=top_left,mirrored=false,outward_positive=false,part=tip,visual=player_on": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/player/powered/tip_negative_z",
+      "x": 180,
+      "y": 270
+    },
+    "axis=x,corner=top_left,mirrored=false,outward_positive=true,part=body,visual=normal": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/default/body_negative_z",
+      "x": 180,
+      "y": 270
+    },
+    "axis=x,corner=top_left,mirrored=false,outward_positive=true,part=body,visual=force_off": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/force/unpowered/body_negative_z",
+      "x": 180,
+      "y": 270
+    },
+    "axis=x,corner=top_left,mirrored=false,outward_positive=true,part=body,visual=force_on": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/force/powered/body_negative_z",
+      "x": 180,
+      "y": 270
+    },
+    "axis=x,corner=top_left,mirrored=false,outward_positive=true,part=body,visual=player_off": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/player/unpowered/body_negative_z",
+      "x": 180,
+      "y": 270
+    },
+    "axis=x,corner=top_left,mirrored=false,outward_positive=true,part=body,visual=player_on": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/player/powered/body_negative_z",
+      "x": 180,
+      "y": 270
+    },
+    "axis=x,corner=top_left,mirrored=false,outward_positive=true,part=tip,visual=normal": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/default/tip_positive_z",
+      "x": 180,
+      "y": 270
+    },
+    "axis=x,corner=top_left,mirrored=false,outward_positive=true,part=tip,visual=force_off": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/force/unpowered/tip_positive_z",
+      "x": 180,
+      "y": 270
+    },
+    "axis=x,corner=top_left,mirrored=false,outward_positive=true,part=tip,visual=force_on": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/force/powered/tip_positive_z",
+      "x": 180,
+      "y": 270
+    },
+    "axis=x,corner=top_left,mirrored=false,outward_positive=true,part=tip,visual=player_off": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/player/unpowered/tip_positive_z",
+      "x": 180,
+      "y": 270
+    },
+    "axis=x,corner=top_left,mirrored=false,outward_positive=true,part=tip,visual=player_on": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/player/powered/tip_positive_z",
+      "x": 180,
+      "y": 270
+    },
+    "axis=x,corner=top_left,mirrored=true,outward_positive=false,part=body,visual=normal": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/default/body_positive_z",
+      "x": 180,
+      "y": 270
+    },
+    "axis=x,corner=top_left,mirrored=true,outward_positive=false,part=body,visual=force_off": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/force/unpowered/body_positive_z",
+      "x": 180,
+      "y": 270
+    },
+    "axis=x,corner=top_left,mirrored=true,outward_positive=false,part=body,visual=force_on": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/force/powered/body_positive_z",
+      "x": 180,
+      "y": 270
+    },
+    "axis=x,corner=top_left,mirrored=true,outward_positive=false,part=body,visual=player_off": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/player/unpowered/body_positive_z",
+      "x": 180,
+      "y": 270
+    },
+    "axis=x,corner=top_left,mirrored=true,outward_positive=false,part=body,visual=player_on": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/player/powered/body_positive_z",
+      "x": 180,
+      "y": 270
+    },
+    "axis=x,corner=top_left,mirrored=true,outward_positive=false,part=tip,visual=normal": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/default/tip_negative_z",
+      "x": 180,
+      "y": 270
+    },
+    "axis=x,corner=top_left,mirrored=true,outward_positive=false,part=tip,visual=force_off": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/force/unpowered/tip_negative_z",
+      "x": 180,
+      "y": 270
+    },
+    "axis=x,corner=top_left,mirrored=true,outward_positive=false,part=tip,visual=force_on": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/force/powered/tip_negative_z",
+      "x": 180,
+      "y": 270
+    },
+    "axis=x,corner=top_left,mirrored=true,outward_positive=false,part=tip,visual=player_off": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/player/unpowered/tip_negative_z",
+      "x": 180,
+      "y": 270
+    },
+    "axis=x,corner=top_left,mirrored=true,outward_positive=false,part=tip,visual=player_on": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/player/powered/tip_negative_z",
+      "x": 180,
+      "y": 270
+    },
+    "axis=x,corner=top_left,mirrored=true,outward_positive=true,part=body,visual=normal": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/default/body_negative_z",
+      "x": 180,
+      "y": 270
+    },
+    "axis=x,corner=top_left,mirrored=true,outward_positive=true,part=body,visual=force_off": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/force/unpowered/body_negative_z",
+      "x": 180,
+      "y": 270
+    },
+    "axis=x,corner=top_left,mirrored=true,outward_positive=true,part=body,visual=force_on": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/force/powered/body_negative_z",
+      "x": 180,
+      "y": 270
+    },
+    "axis=x,corner=top_left,mirrored=true,outward_positive=true,part=body,visual=player_off": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/player/unpowered/body_negative_z",
+      "x": 180,
+      "y": 270
+    },
+    "axis=x,corner=top_left,mirrored=true,outward_positive=true,part=body,visual=player_on": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/player/powered/body_negative_z",
+      "x": 180,
+      "y": 270
+    },
+    "axis=x,corner=top_left,mirrored=true,outward_positive=true,part=tip,visual=normal": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/default/tip_positive_z",
+      "x": 180,
+      "y": 270
+    },
+    "axis=x,corner=top_left,mirrored=true,outward_positive=true,part=tip,visual=force_off": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/force/unpowered/tip_positive_z",
+      "x": 180,
+      "y": 270
+    },
+    "axis=x,corner=top_left,mirrored=true,outward_positive=true,part=tip,visual=force_on": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/force/powered/tip_positive_z",
+      "x": 180,
+      "y": 270
+    },
+    "axis=x,corner=top_left,mirrored=true,outward_positive=true,part=tip,visual=player_off": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/player/unpowered/tip_positive_z",
+      "x": 180,
+      "y": 270
+    },
+    "axis=x,corner=top_left,mirrored=true,outward_positive=true,part=tip,visual=player_on": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/player/powered/tip_positive_z",
+      "x": 180,
+      "y": 270
+    },
+    "axis=x,corner=top_right,mirrored=false,outward_positive=false,part=body,visual=normal": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/default/body_negative_z",
+      "x": 180,
+      "y": 90
+    },
+    "axis=x,corner=top_right,mirrored=false,outward_positive=false,part=body,visual=force_off": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/force/unpowered/body_negative_z",
+      "x": 180,
+      "y": 90
+    },
+    "axis=x,corner=top_right,mirrored=false,outward_positive=false,part=body,visual=force_on": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/force/powered/body_negative_z",
+      "x": 180,
+      "y": 90
+    },
+    "axis=x,corner=top_right,mirrored=false,outward_positive=false,part=body,visual=player_off": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/player/unpowered/body_negative_z",
+      "x": 180,
+      "y": 90
+    },
+    "axis=x,corner=top_right,mirrored=false,outward_positive=false,part=body,visual=player_on": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/player/powered/body_negative_z",
+      "x": 180,
+      "y": 90
+    },
+    "axis=x,corner=top_right,mirrored=false,outward_positive=false,part=tip,visual=normal": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/default/tip_positive_z",
+      "x": 180,
+      "y": 90
+    },
+    "axis=x,corner=top_right,mirrored=false,outward_positive=false,part=tip,visual=force_off": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/force/unpowered/tip_positive_z",
+      "x": 180,
+      "y": 90
+    },
+    "axis=x,corner=top_right,mirrored=false,outward_positive=false,part=tip,visual=force_on": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/force/powered/tip_positive_z",
+      "x": 180,
+      "y": 90
+    },
+    "axis=x,corner=top_right,mirrored=false,outward_positive=false,part=tip,visual=player_off": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/player/unpowered/tip_positive_z",
+      "x": 180,
+      "y": 90
+    },
+    "axis=x,corner=top_right,mirrored=false,outward_positive=false,part=tip,visual=player_on": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/player/powered/tip_positive_z",
+      "x": 180,
+      "y": 90
+    },
+    "axis=x,corner=top_right,mirrored=false,outward_positive=true,part=body,visual=normal": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/default/body_positive_z",
+      "x": 180,
+      "y": 90
+    },
+    "axis=x,corner=top_right,mirrored=false,outward_positive=true,part=body,visual=force_off": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/force/unpowered/body_positive_z",
+      "x": 180,
+      "y": 90
+    },
+    "axis=x,corner=top_right,mirrored=false,outward_positive=true,part=body,visual=force_on": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/force/powered/body_positive_z",
+      "x": 180,
+      "y": 90
+    },
+    "axis=x,corner=top_right,mirrored=false,outward_positive=true,part=body,visual=player_off": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/player/unpowered/body_positive_z",
+      "x": 180,
+      "y": 90
+    },
+    "axis=x,corner=top_right,mirrored=false,outward_positive=true,part=body,visual=player_on": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/player/powered/body_positive_z",
+      "x": 180,
+      "y": 90
+    },
+    "axis=x,corner=top_right,mirrored=false,outward_positive=true,part=tip,visual=normal": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/default/tip_negative_z",
+      "x": 180,
+      "y": 90
+    },
+    "axis=x,corner=top_right,mirrored=false,outward_positive=true,part=tip,visual=force_off": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/force/unpowered/tip_negative_z",
+      "x": 180,
+      "y": 90
+    },
+    "axis=x,corner=top_right,mirrored=false,outward_positive=true,part=tip,visual=force_on": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/force/powered/tip_negative_z",
+      "x": 180,
+      "y": 90
+    },
+    "axis=x,corner=top_right,mirrored=false,outward_positive=true,part=tip,visual=player_off": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/player/unpowered/tip_negative_z",
+      "x": 180,
+      "y": 90
+    },
+    "axis=x,corner=top_right,mirrored=false,outward_positive=true,part=tip,visual=player_on": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/player/powered/tip_negative_z",
+      "x": 180,
+      "y": 90
+    },
+    "axis=x,corner=top_right,mirrored=true,outward_positive=false,part=body,visual=normal": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/default/body_negative_z",
+      "x": 180,
+      "y": 90
+    },
+    "axis=x,corner=top_right,mirrored=true,outward_positive=false,part=body,visual=force_off": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/force/unpowered/body_negative_z",
+      "x": 180,
+      "y": 90
+    },
+    "axis=x,corner=top_right,mirrored=true,outward_positive=false,part=body,visual=force_on": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/force/powered/body_negative_z",
+      "x": 180,
+      "y": 90
+    },
+    "axis=x,corner=top_right,mirrored=true,outward_positive=false,part=body,visual=player_off": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/player/unpowered/body_negative_z",
+      "x": 180,
+      "y": 90
+    },
+    "axis=x,corner=top_right,mirrored=true,outward_positive=false,part=body,visual=player_on": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/player/powered/body_negative_z",
+      "x": 180,
+      "y": 90
+    },
+    "axis=x,corner=top_right,mirrored=true,outward_positive=false,part=tip,visual=normal": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/default/tip_positive_z",
+      "x": 180,
+      "y": 90
+    },
+    "axis=x,corner=top_right,mirrored=true,outward_positive=false,part=tip,visual=force_off": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/force/unpowered/tip_positive_z",
+      "x": 180,
+      "y": 90
+    },
+    "axis=x,corner=top_right,mirrored=true,outward_positive=false,part=tip,visual=force_on": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/force/powered/tip_positive_z",
+      "x": 180,
+      "y": 90
+    },
+    "axis=x,corner=top_right,mirrored=true,outward_positive=false,part=tip,visual=player_off": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/player/unpowered/tip_positive_z",
+      "x": 180,
+      "y": 90
+    },
+    "axis=x,corner=top_right,mirrored=true,outward_positive=false,part=tip,visual=player_on": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/player/powered/tip_positive_z",
+      "x": 180,
+      "y": 90
+    },
+    "axis=x,corner=top_right,mirrored=true,outward_positive=true,part=body,visual=normal": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/default/body_positive_z",
+      "x": 180,
+      "y": 90
+    },
+    "axis=x,corner=top_right,mirrored=true,outward_positive=true,part=body,visual=force_off": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/force/unpowered/body_positive_z",
+      "x": 180,
+      "y": 90
+    },
+    "axis=x,corner=top_right,mirrored=true,outward_positive=true,part=body,visual=force_on": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/force/powered/body_positive_z",
+      "x": 180,
+      "y": 90
+    },
+    "axis=x,corner=top_right,mirrored=true,outward_positive=true,part=body,visual=player_off": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/player/unpowered/body_positive_z",
+      "x": 180,
+      "y": 90
+    },
+    "axis=x,corner=top_right,mirrored=true,outward_positive=true,part=body,visual=player_on": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/player/powered/body_positive_z",
+      "x": 180,
+      "y": 90
+    },
+    "axis=x,corner=top_right,mirrored=true,outward_positive=true,part=tip,visual=normal": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/default/tip_negative_z",
+      "x": 180,
+      "y": 90
+    },
+    "axis=x,corner=top_right,mirrored=true,outward_positive=true,part=tip,visual=force_off": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/force/unpowered/tip_negative_z",
+      "x": 180,
+      "y": 90
+    },
+    "axis=x,corner=top_right,mirrored=true,outward_positive=true,part=tip,visual=force_on": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/force/powered/tip_negative_z",
+      "x": 180,
+      "y": 90
+    },
+    "axis=x,corner=top_right,mirrored=true,outward_positive=true,part=tip,visual=player_off": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/player/unpowered/tip_negative_z",
+      "x": 180,
+      "y": 90
+    },
+    "axis=x,corner=top_right,mirrored=true,outward_positive=true,part=tip,visual=player_on": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/player/powered/tip_negative_z",
+      "x": 180,
+      "y": 90
+    },
+    "axis=y,corner=bottom_left,mirrored=false,outward_positive=false,part=body,visual=normal": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/default/body_negative_z",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y,corner=bottom_left,mirrored=false,outward_positive=false,part=body,visual=force_off": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/force/unpowered/body_negative_z",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y,corner=bottom_left,mirrored=false,outward_positive=false,part=body,visual=force_on": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/force/powered/body_negative_z",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y,corner=bottom_left,mirrored=false,outward_positive=false,part=body,visual=player_off": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/player/unpowered/body_negative_z",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y,corner=bottom_left,mirrored=false,outward_positive=false,part=body,visual=player_on": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/player/powered/body_negative_z",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y,corner=bottom_left,mirrored=false,outward_positive=false,part=tip,visual=normal": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/default/tip_positive_z",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y,corner=bottom_left,mirrored=false,outward_positive=false,part=tip,visual=force_off": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/force/unpowered/tip_positive_z",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y,corner=bottom_left,mirrored=false,outward_positive=false,part=tip,visual=force_on": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/force/powered/tip_positive_z",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y,corner=bottom_left,mirrored=false,outward_positive=false,part=tip,visual=player_off": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/player/unpowered/tip_positive_z",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y,corner=bottom_left,mirrored=false,outward_positive=false,part=tip,visual=player_on": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/player/powered/tip_positive_z",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y,corner=bottom_left,mirrored=false,outward_positive=true,part=body,visual=normal": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/default/body_positive_z",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y,corner=bottom_left,mirrored=false,outward_positive=true,part=body,visual=force_off": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/force/unpowered/body_positive_z",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y,corner=bottom_left,mirrored=false,outward_positive=true,part=body,visual=force_on": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/force/powered/body_positive_z",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y,corner=bottom_left,mirrored=false,outward_positive=true,part=body,visual=player_off": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/player/unpowered/body_positive_z",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y,corner=bottom_left,mirrored=false,outward_positive=true,part=body,visual=player_on": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/player/powered/body_positive_z",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y,corner=bottom_left,mirrored=false,outward_positive=true,part=tip,visual=normal": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/default/tip_negative_z",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y,corner=bottom_left,mirrored=false,outward_positive=true,part=tip,visual=force_off": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/force/unpowered/tip_negative_z",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y,corner=bottom_left,mirrored=false,outward_positive=true,part=tip,visual=force_on": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/force/powered/tip_negative_z",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y,corner=bottom_left,mirrored=false,outward_positive=true,part=tip,visual=player_off": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/player/unpowered/tip_negative_z",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y,corner=bottom_left,mirrored=false,outward_positive=true,part=tip,visual=player_on": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/player/powered/tip_negative_z",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y,corner=bottom_left,mirrored=true,outward_positive=false,part=body,visual=normal": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/default/body_negative_z",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y,corner=bottom_left,mirrored=true,outward_positive=false,part=body,visual=force_off": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/force/unpowered/body_negative_z",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y,corner=bottom_left,mirrored=true,outward_positive=false,part=body,visual=force_on": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/force/powered/body_negative_z",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y,corner=bottom_left,mirrored=true,outward_positive=false,part=body,visual=player_off": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/player/unpowered/body_negative_z",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y,corner=bottom_left,mirrored=true,outward_positive=false,part=body,visual=player_on": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/player/powered/body_negative_z",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y,corner=bottom_left,mirrored=true,outward_positive=false,part=tip,visual=normal": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/default/tip_positive_z",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y,corner=bottom_left,mirrored=true,outward_positive=false,part=tip,visual=force_off": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/force/unpowered/tip_positive_z",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y,corner=bottom_left,mirrored=true,outward_positive=false,part=tip,visual=force_on": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/force/powered/tip_positive_z",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y,corner=bottom_left,mirrored=true,outward_positive=false,part=tip,visual=player_off": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/player/unpowered/tip_positive_z",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y,corner=bottom_left,mirrored=true,outward_positive=false,part=tip,visual=player_on": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/player/powered/tip_positive_z",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y,corner=bottom_left,mirrored=true,outward_positive=true,part=body,visual=normal": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/default/body_positive_z",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y,corner=bottom_left,mirrored=true,outward_positive=true,part=body,visual=force_off": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/force/unpowered/body_positive_z",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y,corner=bottom_left,mirrored=true,outward_positive=true,part=body,visual=force_on": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/force/powered/body_positive_z",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y,corner=bottom_left,mirrored=true,outward_positive=true,part=body,visual=player_off": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/player/unpowered/body_positive_z",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y,corner=bottom_left,mirrored=true,outward_positive=true,part=body,visual=player_on": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/player/powered/body_positive_z",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y,corner=bottom_left,mirrored=true,outward_positive=true,part=tip,visual=normal": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/default/tip_negative_z",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y,corner=bottom_left,mirrored=true,outward_positive=true,part=tip,visual=force_off": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/force/unpowered/tip_negative_z",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y,corner=bottom_left,mirrored=true,outward_positive=true,part=tip,visual=force_on": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/force/powered/tip_negative_z",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y,corner=bottom_left,mirrored=true,outward_positive=true,part=tip,visual=player_off": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/player/unpowered/tip_negative_z",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y,corner=bottom_left,mirrored=true,outward_positive=true,part=tip,visual=player_on": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/player/powered/tip_negative_z",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y,corner=bottom_right,mirrored=false,outward_positive=false,part=body,visual=normal": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/default/body_negative_z",
+      "x": 90
+    },
+    "axis=y,corner=bottom_right,mirrored=false,outward_positive=false,part=body,visual=force_off": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/force/unpowered/body_negative_z",
+      "x": 90
+    },
+    "axis=y,corner=bottom_right,mirrored=false,outward_positive=false,part=body,visual=force_on": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/force/powered/body_negative_z",
+      "x": 90
+    },
+    "axis=y,corner=bottom_right,mirrored=false,outward_positive=false,part=body,visual=player_off": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/player/unpowered/body_negative_z",
+      "x": 90
+    },
+    "axis=y,corner=bottom_right,mirrored=false,outward_positive=false,part=body,visual=player_on": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/player/powered/body_negative_z",
+      "x": 90
+    },
+    "axis=y,corner=bottom_right,mirrored=false,outward_positive=false,part=tip,visual=normal": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/default/tip_positive_z",
+      "x": 90
+    },
+    "axis=y,corner=bottom_right,mirrored=false,outward_positive=false,part=tip,visual=force_off": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/force/unpowered/tip_positive_z",
+      "x": 90
+    },
+    "axis=y,corner=bottom_right,mirrored=false,outward_positive=false,part=tip,visual=force_on": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/force/powered/tip_positive_z",
+      "x": 90
+    },
+    "axis=y,corner=bottom_right,mirrored=false,outward_positive=false,part=tip,visual=player_off": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/player/unpowered/tip_positive_z",
+      "x": 90
+    },
+    "axis=y,corner=bottom_right,mirrored=false,outward_positive=false,part=tip,visual=player_on": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/player/powered/tip_positive_z",
+      "x": 90
+    },
+    "axis=y,corner=bottom_right,mirrored=false,outward_positive=true,part=body,visual=normal": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/default/body_positive_z",
+      "x": 90
+    },
+    "axis=y,corner=bottom_right,mirrored=false,outward_positive=true,part=body,visual=force_off": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/force/unpowered/body_positive_z",
+      "x": 90
+    },
+    "axis=y,corner=bottom_right,mirrored=false,outward_positive=true,part=body,visual=force_on": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/force/powered/body_positive_z",
+      "x": 90
+    },
+    "axis=y,corner=bottom_right,mirrored=false,outward_positive=true,part=body,visual=player_off": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/player/unpowered/body_positive_z",
+      "x": 90
+    },
+    "axis=y,corner=bottom_right,mirrored=false,outward_positive=true,part=body,visual=player_on": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/player/powered/body_positive_z",
+      "x": 90
+    },
+    "axis=y,corner=bottom_right,mirrored=false,outward_positive=true,part=tip,visual=normal": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/default/tip_negative_z",
+      "x": 90
+    },
+    "axis=y,corner=bottom_right,mirrored=false,outward_positive=true,part=tip,visual=force_off": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/force/unpowered/tip_negative_z",
+      "x": 90
+    },
+    "axis=y,corner=bottom_right,mirrored=false,outward_positive=true,part=tip,visual=force_on": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/force/powered/tip_negative_z",
+      "x": 90
+    },
+    "axis=y,corner=bottom_right,mirrored=false,outward_positive=true,part=tip,visual=player_off": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/player/unpowered/tip_negative_z",
+      "x": 90
+    },
+    "axis=y,corner=bottom_right,mirrored=false,outward_positive=true,part=tip,visual=player_on": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/player/powered/tip_negative_z",
+      "x": 90
+    },
+    "axis=y,corner=bottom_right,mirrored=true,outward_positive=false,part=body,visual=normal": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/default/body_negative_z",
+      "x": 90
+    },
+    "axis=y,corner=bottom_right,mirrored=true,outward_positive=false,part=body,visual=force_off": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/force/unpowered/body_negative_z",
+      "x": 90
+    },
+    "axis=y,corner=bottom_right,mirrored=true,outward_positive=false,part=body,visual=force_on": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/force/powered/body_negative_z",
+      "x": 90
+    },
+    "axis=y,corner=bottom_right,mirrored=true,outward_positive=false,part=body,visual=player_off": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/player/unpowered/body_negative_z",
+      "x": 90
+    },
+    "axis=y,corner=bottom_right,mirrored=true,outward_positive=false,part=body,visual=player_on": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/player/powered/body_negative_z",
+      "x": 90
+    },
+    "axis=y,corner=bottom_right,mirrored=true,outward_positive=false,part=tip,visual=normal": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/default/tip_positive_z",
+      "x": 90
+    },
+    "axis=y,corner=bottom_right,mirrored=true,outward_positive=false,part=tip,visual=force_off": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/force/unpowered/tip_positive_z",
+      "x": 90
+    },
+    "axis=y,corner=bottom_right,mirrored=true,outward_positive=false,part=tip,visual=force_on": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/force/powered/tip_positive_z",
+      "x": 90
+    },
+    "axis=y,corner=bottom_right,mirrored=true,outward_positive=false,part=tip,visual=player_off": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/player/unpowered/tip_positive_z",
+      "x": 90
+    },
+    "axis=y,corner=bottom_right,mirrored=true,outward_positive=false,part=tip,visual=player_on": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/player/powered/tip_positive_z",
+      "x": 90
+    },
+    "axis=y,corner=bottom_right,mirrored=true,outward_positive=true,part=body,visual=normal": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/default/body_positive_z",
+      "x": 90
+    },
+    "axis=y,corner=bottom_right,mirrored=true,outward_positive=true,part=body,visual=force_off": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/force/unpowered/body_positive_z",
+      "x": 90
+    },
+    "axis=y,corner=bottom_right,mirrored=true,outward_positive=true,part=body,visual=force_on": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/force/powered/body_positive_z",
+      "x": 90
+    },
+    "axis=y,corner=bottom_right,mirrored=true,outward_positive=true,part=body,visual=player_off": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/player/unpowered/body_positive_z",
+      "x": 90
+    },
+    "axis=y,corner=bottom_right,mirrored=true,outward_positive=true,part=body,visual=player_on": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/player/powered/body_positive_z",
+      "x": 90
+    },
+    "axis=y,corner=bottom_right,mirrored=true,outward_positive=true,part=tip,visual=normal": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/default/tip_negative_z",
+      "x": 90
+    },
+    "axis=y,corner=bottom_right,mirrored=true,outward_positive=true,part=tip,visual=force_off": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/force/unpowered/tip_negative_z",
+      "x": 90
+    },
+    "axis=y,corner=bottom_right,mirrored=true,outward_positive=true,part=tip,visual=force_on": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/force/powered/tip_negative_z",
+      "x": 90
+    },
+    "axis=y,corner=bottom_right,mirrored=true,outward_positive=true,part=tip,visual=player_off": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/player/unpowered/tip_negative_z",
+      "x": 90
+    },
+    "axis=y,corner=bottom_right,mirrored=true,outward_positive=true,part=tip,visual=player_on": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/player/powered/tip_negative_z",
+      "x": 90
+    },
+    "axis=y,corner=top_left,mirrored=false,outward_positive=false,part=body,visual=normal": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/default/body_negative_z",
+      "x": 90,
+      "y": 180
+    },
+    "axis=y,corner=top_left,mirrored=false,outward_positive=false,part=body,visual=force_off": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/force/unpowered/body_negative_z",
+      "x": 90,
+      "y": 180
+    },
+    "axis=y,corner=top_left,mirrored=false,outward_positive=false,part=body,visual=force_on": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/force/powered/body_negative_z",
+      "x": 90,
+      "y": 180
+    },
+    "axis=y,corner=top_left,mirrored=false,outward_positive=false,part=body,visual=player_off": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/player/unpowered/body_negative_z",
+      "x": 90,
+      "y": 180
+    },
+    "axis=y,corner=top_left,mirrored=false,outward_positive=false,part=body,visual=player_on": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/player/powered/body_negative_z",
+      "x": 90,
+      "y": 180
+    },
+    "axis=y,corner=top_left,mirrored=false,outward_positive=false,part=tip,visual=normal": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/default/tip_positive_z",
+      "x": 90,
+      "y": 180
+    },
+    "axis=y,corner=top_left,mirrored=false,outward_positive=false,part=tip,visual=force_off": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/force/unpowered/tip_positive_z",
+      "x": 90,
+      "y": 180
+    },
+    "axis=y,corner=top_left,mirrored=false,outward_positive=false,part=tip,visual=force_on": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/force/powered/tip_positive_z",
+      "x": 90,
+      "y": 180
+    },
+    "axis=y,corner=top_left,mirrored=false,outward_positive=false,part=tip,visual=player_off": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/player/unpowered/tip_positive_z",
+      "x": 90,
+      "y": 180
+    },
+    "axis=y,corner=top_left,mirrored=false,outward_positive=false,part=tip,visual=player_on": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/player/powered/tip_positive_z",
+      "x": 90,
+      "y": 180
+    },
+    "axis=y,corner=top_left,mirrored=false,outward_positive=true,part=body,visual=normal": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/default/body_positive_z",
+      "x": 90,
+      "y": 180
+    },
+    "axis=y,corner=top_left,mirrored=false,outward_positive=true,part=body,visual=force_off": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/force/unpowered/body_positive_z",
+      "x": 90,
+      "y": 180
+    },
+    "axis=y,corner=top_left,mirrored=false,outward_positive=true,part=body,visual=force_on": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/force/powered/body_positive_z",
+      "x": 90,
+      "y": 180
+    },
+    "axis=y,corner=top_left,mirrored=false,outward_positive=true,part=body,visual=player_off": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/player/unpowered/body_positive_z",
+      "x": 90,
+      "y": 180
+    },
+    "axis=y,corner=top_left,mirrored=false,outward_positive=true,part=body,visual=player_on": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/player/powered/body_positive_z",
+      "x": 90,
+      "y": 180
+    },
+    "axis=y,corner=top_left,mirrored=false,outward_positive=true,part=tip,visual=normal": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/default/tip_negative_z",
+      "x": 90,
+      "y": 180
+    },
+    "axis=y,corner=top_left,mirrored=false,outward_positive=true,part=tip,visual=force_off": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/force/unpowered/tip_negative_z",
+      "x": 90,
+      "y": 180
+    },
+    "axis=y,corner=top_left,mirrored=false,outward_positive=true,part=tip,visual=force_on": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/force/powered/tip_negative_z",
+      "x": 90,
+      "y": 180
+    },
+    "axis=y,corner=top_left,mirrored=false,outward_positive=true,part=tip,visual=player_off": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/player/unpowered/tip_negative_z",
+      "x": 90,
+      "y": 180
+    },
+    "axis=y,corner=top_left,mirrored=false,outward_positive=true,part=tip,visual=player_on": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/player/powered/tip_negative_z",
+      "x": 90,
+      "y": 180
+    },
+    "axis=y,corner=top_left,mirrored=true,outward_positive=false,part=body,visual=normal": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/default/body_negative_z",
+      "x": 90,
+      "y": 180
+    },
+    "axis=y,corner=top_left,mirrored=true,outward_positive=false,part=body,visual=force_off": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/force/unpowered/body_negative_z",
+      "x": 90,
+      "y": 180
+    },
+    "axis=y,corner=top_left,mirrored=true,outward_positive=false,part=body,visual=force_on": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/force/powered/body_negative_z",
+      "x": 90,
+      "y": 180
+    },
+    "axis=y,corner=top_left,mirrored=true,outward_positive=false,part=body,visual=player_off": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/player/unpowered/body_negative_z",
+      "x": 90,
+      "y": 180
+    },
+    "axis=y,corner=top_left,mirrored=true,outward_positive=false,part=body,visual=player_on": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/player/powered/body_negative_z",
+      "x": 90,
+      "y": 180
+    },
+    "axis=y,corner=top_left,mirrored=true,outward_positive=false,part=tip,visual=normal": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/default/tip_positive_z",
+      "x": 90,
+      "y": 180
+    },
+    "axis=y,corner=top_left,mirrored=true,outward_positive=false,part=tip,visual=force_off": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/force/unpowered/tip_positive_z",
+      "x": 90,
+      "y": 180
+    },
+    "axis=y,corner=top_left,mirrored=true,outward_positive=false,part=tip,visual=force_on": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/force/powered/tip_positive_z",
+      "x": 90,
+      "y": 180
+    },
+    "axis=y,corner=top_left,mirrored=true,outward_positive=false,part=tip,visual=player_off": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/player/unpowered/tip_positive_z",
+      "x": 90,
+      "y": 180
+    },
+    "axis=y,corner=top_left,mirrored=true,outward_positive=false,part=tip,visual=player_on": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/player/powered/tip_positive_z",
+      "x": 90,
+      "y": 180
+    },
+    "axis=y,corner=top_left,mirrored=true,outward_positive=true,part=body,visual=normal": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/default/body_positive_z",
+      "x": 90,
+      "y": 180
+    },
+    "axis=y,corner=top_left,mirrored=true,outward_positive=true,part=body,visual=force_off": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/force/unpowered/body_positive_z",
+      "x": 90,
+      "y": 180
+    },
+    "axis=y,corner=top_left,mirrored=true,outward_positive=true,part=body,visual=force_on": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/force/powered/body_positive_z",
+      "x": 90,
+      "y": 180
+    },
+    "axis=y,corner=top_left,mirrored=true,outward_positive=true,part=body,visual=player_off": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/player/unpowered/body_positive_z",
+      "x": 90,
+      "y": 180
+    },
+    "axis=y,corner=top_left,mirrored=true,outward_positive=true,part=body,visual=player_on": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/player/powered/body_positive_z",
+      "x": 90,
+      "y": 180
+    },
+    "axis=y,corner=top_left,mirrored=true,outward_positive=true,part=tip,visual=normal": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/default/tip_negative_z",
+      "x": 90,
+      "y": 180
+    },
+    "axis=y,corner=top_left,mirrored=true,outward_positive=true,part=tip,visual=force_off": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/force/unpowered/tip_negative_z",
+      "x": 90,
+      "y": 180
+    },
+    "axis=y,corner=top_left,mirrored=true,outward_positive=true,part=tip,visual=force_on": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/force/powered/tip_negative_z",
+      "x": 90,
+      "y": 180
+    },
+    "axis=y,corner=top_left,mirrored=true,outward_positive=true,part=tip,visual=player_off": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/player/unpowered/tip_negative_z",
+      "x": 90,
+      "y": 180
+    },
+    "axis=y,corner=top_left,mirrored=true,outward_positive=true,part=tip,visual=player_on": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/player/powered/tip_negative_z",
+      "x": 90,
+      "y": 180
+    },
+    "axis=y,corner=top_right,mirrored=false,outward_positive=false,part=body,visual=normal": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/default/body_negative_z",
+      "x": 90,
+      "y": 270
+    },
+    "axis=y,corner=top_right,mirrored=false,outward_positive=false,part=body,visual=force_off": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/force/unpowered/body_negative_z",
+      "x": 90,
+      "y": 270
+    },
+    "axis=y,corner=top_right,mirrored=false,outward_positive=false,part=body,visual=force_on": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/force/powered/body_negative_z",
+      "x": 90,
+      "y": 270
+    },
+    "axis=y,corner=top_right,mirrored=false,outward_positive=false,part=body,visual=player_off": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/player/unpowered/body_negative_z",
+      "x": 90,
+      "y": 270
+    },
+    "axis=y,corner=top_right,mirrored=false,outward_positive=false,part=body,visual=player_on": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/player/powered/body_negative_z",
+      "x": 90,
+      "y": 270
+    },
+    "axis=y,corner=top_right,mirrored=false,outward_positive=false,part=tip,visual=normal": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/default/tip_positive_z",
+      "x": 90,
+      "y": 270
+    },
+    "axis=y,corner=top_right,mirrored=false,outward_positive=false,part=tip,visual=force_off": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/force/unpowered/tip_positive_z",
+      "x": 90,
+      "y": 270
+    },
+    "axis=y,corner=top_right,mirrored=false,outward_positive=false,part=tip,visual=force_on": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/force/powered/tip_positive_z",
+      "x": 90,
+      "y": 270
+    },
+    "axis=y,corner=top_right,mirrored=false,outward_positive=false,part=tip,visual=player_off": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/player/unpowered/tip_positive_z",
+      "x": 90,
+      "y": 270
+    },
+    "axis=y,corner=top_right,mirrored=false,outward_positive=false,part=tip,visual=player_on": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/player/powered/tip_positive_z",
+      "x": 90,
+      "y": 270
+    },
+    "axis=y,corner=top_right,mirrored=false,outward_positive=true,part=body,visual=normal": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/default/body_positive_z",
+      "x": 90,
+      "y": 270
+    },
+    "axis=y,corner=top_right,mirrored=false,outward_positive=true,part=body,visual=force_off": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/force/unpowered/body_positive_z",
+      "x": 90,
+      "y": 270
+    },
+    "axis=y,corner=top_right,mirrored=false,outward_positive=true,part=body,visual=force_on": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/force/powered/body_positive_z",
+      "x": 90,
+      "y": 270
+    },
+    "axis=y,corner=top_right,mirrored=false,outward_positive=true,part=body,visual=player_off": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/player/unpowered/body_positive_z",
+      "x": 90,
+      "y": 270
+    },
+    "axis=y,corner=top_right,mirrored=false,outward_positive=true,part=body,visual=player_on": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/player/powered/body_positive_z",
+      "x": 90,
+      "y": 270
+    },
+    "axis=y,corner=top_right,mirrored=false,outward_positive=true,part=tip,visual=normal": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/default/tip_negative_z",
+      "x": 90,
+      "y": 270
+    },
+    "axis=y,corner=top_right,mirrored=false,outward_positive=true,part=tip,visual=force_off": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/force/unpowered/tip_negative_z",
+      "x": 90,
+      "y": 270
+    },
+    "axis=y,corner=top_right,mirrored=false,outward_positive=true,part=tip,visual=force_on": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/force/powered/tip_negative_z",
+      "x": 90,
+      "y": 270
+    },
+    "axis=y,corner=top_right,mirrored=false,outward_positive=true,part=tip,visual=player_off": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/player/unpowered/tip_negative_z",
+      "x": 90,
+      "y": 270
+    },
+    "axis=y,corner=top_right,mirrored=false,outward_positive=true,part=tip,visual=player_on": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/player/powered/tip_negative_z",
+      "x": 90,
+      "y": 270
+    },
+    "axis=y,corner=top_right,mirrored=true,outward_positive=false,part=body,visual=normal": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/default/body_negative_z",
+      "x": 90,
+      "y": 270
+    },
+    "axis=y,corner=top_right,mirrored=true,outward_positive=false,part=body,visual=force_off": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/force/unpowered/body_negative_z",
+      "x": 90,
+      "y": 270
+    },
+    "axis=y,corner=top_right,mirrored=true,outward_positive=false,part=body,visual=force_on": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/force/powered/body_negative_z",
+      "x": 90,
+      "y": 270
+    },
+    "axis=y,corner=top_right,mirrored=true,outward_positive=false,part=body,visual=player_off": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/player/unpowered/body_negative_z",
+      "x": 90,
+      "y": 270
+    },
+    "axis=y,corner=top_right,mirrored=true,outward_positive=false,part=body,visual=player_on": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/player/powered/body_negative_z",
+      "x": 90,
+      "y": 270
+    },
+    "axis=y,corner=top_right,mirrored=true,outward_positive=false,part=tip,visual=normal": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/default/tip_positive_z",
+      "x": 90,
+      "y": 270
+    },
+    "axis=y,corner=top_right,mirrored=true,outward_positive=false,part=tip,visual=force_off": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/force/unpowered/tip_positive_z",
+      "x": 90,
+      "y": 270
+    },
+    "axis=y,corner=top_right,mirrored=true,outward_positive=false,part=tip,visual=force_on": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/force/powered/tip_positive_z",
+      "x": 90,
+      "y": 270
+    },
+    "axis=y,corner=top_right,mirrored=true,outward_positive=false,part=tip,visual=player_off": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/player/unpowered/tip_positive_z",
+      "x": 90,
+      "y": 270
+    },
+    "axis=y,corner=top_right,mirrored=true,outward_positive=false,part=tip,visual=player_on": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/player/powered/tip_positive_z",
+      "x": 90,
+      "y": 270
+    },
+    "axis=y,corner=top_right,mirrored=true,outward_positive=true,part=body,visual=normal": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/default/body_positive_z",
+      "x": 90,
+      "y": 270
+    },
+    "axis=y,corner=top_right,mirrored=true,outward_positive=true,part=body,visual=force_off": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/force/unpowered/body_positive_z",
+      "x": 90,
+      "y": 270
+    },
+    "axis=y,corner=top_right,mirrored=true,outward_positive=true,part=body,visual=force_on": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/force/powered/body_positive_z",
+      "x": 90,
+      "y": 270
+    },
+    "axis=y,corner=top_right,mirrored=true,outward_positive=true,part=body,visual=player_off": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/player/unpowered/body_positive_z",
+      "x": 90,
+      "y": 270
+    },
+    "axis=y,corner=top_right,mirrored=true,outward_positive=true,part=body,visual=player_on": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/player/powered/body_positive_z",
+      "x": 90,
+      "y": 270
+    },
+    "axis=y,corner=top_right,mirrored=true,outward_positive=true,part=tip,visual=normal": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/default/tip_negative_z",
+      "x": 90,
+      "y": 270
+    },
+    "axis=y,corner=top_right,mirrored=true,outward_positive=true,part=tip,visual=force_off": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/force/unpowered/tip_negative_z",
+      "x": 90,
+      "y": 270
+    },
+    "axis=y,corner=top_right,mirrored=true,outward_positive=true,part=tip,visual=force_on": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/force/powered/tip_negative_z",
+      "x": 90,
+      "y": 270
+    },
+    "axis=y,corner=top_right,mirrored=true,outward_positive=true,part=tip,visual=player_off": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/player/unpowered/tip_negative_z",
+      "x": 90,
+      "y": 270
+    },
+    "axis=y,corner=top_right,mirrored=true,outward_positive=true,part=tip,visual=player_on": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/player/powered/tip_negative_z",
+      "x": 90,
+      "y": 270
+    },
+    "axis=z,corner=bottom_left,mirrored=false,outward_positive=false,part=body,visual=normal": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/default/body_positive_z",
+      "y": 180
+    },
+    "axis=z,corner=bottom_left,mirrored=false,outward_positive=false,part=body,visual=force_off": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/force/unpowered/body_positive_z",
+      "y": 180
+    },
+    "axis=z,corner=bottom_left,mirrored=false,outward_positive=false,part=body,visual=force_on": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/force/powered/body_positive_z",
+      "y": 180
+    },
+    "axis=z,corner=bottom_left,mirrored=false,outward_positive=false,part=body,visual=player_off": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/player/unpowered/body_positive_z",
+      "y": 180
+    },
+    "axis=z,corner=bottom_left,mirrored=false,outward_positive=false,part=body,visual=player_on": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/player/powered/body_positive_z",
+      "y": 180
+    },
+    "axis=z,corner=bottom_left,mirrored=false,outward_positive=false,part=tip,visual=normal": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/default/tip_negative_z",
+      "y": 180
+    },
+    "axis=z,corner=bottom_left,mirrored=false,outward_positive=false,part=tip,visual=force_off": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/force/unpowered/tip_negative_z",
+      "y": 180
+    },
+    "axis=z,corner=bottom_left,mirrored=false,outward_positive=false,part=tip,visual=force_on": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/force/powered/tip_negative_z",
+      "y": 180
+    },
+    "axis=z,corner=bottom_left,mirrored=false,outward_positive=false,part=tip,visual=player_off": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/player/unpowered/tip_negative_z",
+      "y": 180
+    },
+    "axis=z,corner=bottom_left,mirrored=false,outward_positive=false,part=tip,visual=player_on": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/player/powered/tip_negative_z",
+      "y": 180
+    },
+    "axis=z,corner=bottom_left,mirrored=false,outward_positive=true,part=body,visual=normal": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/default/body_negative_z",
+      "y": 180
+    },
+    "axis=z,corner=bottom_left,mirrored=false,outward_positive=true,part=body,visual=force_off": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/force/unpowered/body_negative_z",
+      "y": 180
+    },
+    "axis=z,corner=bottom_left,mirrored=false,outward_positive=true,part=body,visual=force_on": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/force/powered/body_negative_z",
+      "y": 180
+    },
+    "axis=z,corner=bottom_left,mirrored=false,outward_positive=true,part=body,visual=player_off": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/player/unpowered/body_negative_z",
+      "y": 180
+    },
+    "axis=z,corner=bottom_left,mirrored=false,outward_positive=true,part=body,visual=player_on": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/player/powered/body_negative_z",
+      "y": 180
+    },
+    "axis=z,corner=bottom_left,mirrored=false,outward_positive=true,part=tip,visual=normal": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/default/tip_positive_z",
+      "y": 180
+    },
+    "axis=z,corner=bottom_left,mirrored=false,outward_positive=true,part=tip,visual=force_off": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/force/unpowered/tip_positive_z",
+      "y": 180
+    },
+    "axis=z,corner=bottom_left,mirrored=false,outward_positive=true,part=tip,visual=force_on": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/force/powered/tip_positive_z",
+      "y": 180
+    },
+    "axis=z,corner=bottom_left,mirrored=false,outward_positive=true,part=tip,visual=player_off": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/player/unpowered/tip_positive_z",
+      "y": 180
+    },
+    "axis=z,corner=bottom_left,mirrored=false,outward_positive=true,part=tip,visual=player_on": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/player/powered/tip_positive_z",
+      "y": 180
+    },
+    "axis=z,corner=bottom_left,mirrored=true,outward_positive=false,part=body,visual=normal": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/default/body_positive_z",
+      "y": 180
+    },
+    "axis=z,corner=bottom_left,mirrored=true,outward_positive=false,part=body,visual=force_off": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/force/unpowered/body_positive_z",
+      "y": 180
+    },
+    "axis=z,corner=bottom_left,mirrored=true,outward_positive=false,part=body,visual=force_on": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/force/powered/body_positive_z",
+      "y": 180
+    },
+    "axis=z,corner=bottom_left,mirrored=true,outward_positive=false,part=body,visual=player_off": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/player/unpowered/body_positive_z",
+      "y": 180
+    },
+    "axis=z,corner=bottom_left,mirrored=true,outward_positive=false,part=body,visual=player_on": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/player/powered/body_positive_z",
+      "y": 180
+    },
+    "axis=z,corner=bottom_left,mirrored=true,outward_positive=false,part=tip,visual=normal": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/default/tip_negative_z",
+      "y": 180
+    },
+    "axis=z,corner=bottom_left,mirrored=true,outward_positive=false,part=tip,visual=force_off": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/force/unpowered/tip_negative_z",
+      "y": 180
+    },
+    "axis=z,corner=bottom_left,mirrored=true,outward_positive=false,part=tip,visual=force_on": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/force/powered/tip_negative_z",
+      "y": 180
+    },
+    "axis=z,corner=bottom_left,mirrored=true,outward_positive=false,part=tip,visual=player_off": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/player/unpowered/tip_negative_z",
+      "y": 180
+    },
+    "axis=z,corner=bottom_left,mirrored=true,outward_positive=false,part=tip,visual=player_on": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/player/powered/tip_negative_z",
+      "y": 180
+    },
+    "axis=z,corner=bottom_left,mirrored=true,outward_positive=true,part=body,visual=normal": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/default/body_negative_z",
+      "y": 180
+    },
+    "axis=z,corner=bottom_left,mirrored=true,outward_positive=true,part=body,visual=force_off": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/force/unpowered/body_negative_z",
+      "y": 180
+    },
+    "axis=z,corner=bottom_left,mirrored=true,outward_positive=true,part=body,visual=force_on": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/force/powered/body_negative_z",
+      "y": 180
+    },
+    "axis=z,corner=bottom_left,mirrored=true,outward_positive=true,part=body,visual=player_off": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/player/unpowered/body_negative_z",
+      "y": 180
+    },
+    "axis=z,corner=bottom_left,mirrored=true,outward_positive=true,part=body,visual=player_on": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/player/powered/body_negative_z",
+      "y": 180
+    },
+    "axis=z,corner=bottom_left,mirrored=true,outward_positive=true,part=tip,visual=normal": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/default/tip_positive_z",
+      "y": 180
+    },
+    "axis=z,corner=bottom_left,mirrored=true,outward_positive=true,part=tip,visual=force_off": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/force/unpowered/tip_positive_z",
+      "y": 180
+    },
+    "axis=z,corner=bottom_left,mirrored=true,outward_positive=true,part=tip,visual=force_on": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/force/powered/tip_positive_z",
+      "y": 180
+    },
+    "axis=z,corner=bottom_left,mirrored=true,outward_positive=true,part=tip,visual=player_off": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/player/unpowered/tip_positive_z",
+      "y": 180
+    },
+    "axis=z,corner=bottom_left,mirrored=true,outward_positive=true,part=tip,visual=player_on": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/player/powered/tip_positive_z",
+      "y": 180
+    },
+    "axis=z,corner=bottom_right,mirrored=false,outward_positive=false,part=body,visual=normal": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/default/body_negative_z"
+    },
+    "axis=z,corner=bottom_right,mirrored=false,outward_positive=false,part=body,visual=force_off": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/force/unpowered/body_negative_z"
+    },
+    "axis=z,corner=bottom_right,mirrored=false,outward_positive=false,part=body,visual=force_on": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/force/powered/body_negative_z"
+    },
+    "axis=z,corner=bottom_right,mirrored=false,outward_positive=false,part=body,visual=player_off": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/player/unpowered/body_negative_z"
+    },
+    "axis=z,corner=bottom_right,mirrored=false,outward_positive=false,part=body,visual=player_on": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/player/powered/body_negative_z"
+    },
+    "axis=z,corner=bottom_right,mirrored=false,outward_positive=false,part=tip,visual=normal": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/default/tip_positive_z"
+    },
+    "axis=z,corner=bottom_right,mirrored=false,outward_positive=false,part=tip,visual=force_off": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/force/unpowered/tip_positive_z"
+    },
+    "axis=z,corner=bottom_right,mirrored=false,outward_positive=false,part=tip,visual=force_on": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/force/powered/tip_positive_z"
+    },
+    "axis=z,corner=bottom_right,mirrored=false,outward_positive=false,part=tip,visual=player_off": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/player/unpowered/tip_positive_z"
+    },
+    "axis=z,corner=bottom_right,mirrored=false,outward_positive=false,part=tip,visual=player_on": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/player/powered/tip_positive_z"
+    },
+    "axis=z,corner=bottom_right,mirrored=false,outward_positive=true,part=body,visual=normal": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/default/body_positive_z"
+    },
+    "axis=z,corner=bottom_right,mirrored=false,outward_positive=true,part=body,visual=force_off": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/force/unpowered/body_positive_z"
+    },
+    "axis=z,corner=bottom_right,mirrored=false,outward_positive=true,part=body,visual=force_on": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/force/powered/body_positive_z"
+    },
+    "axis=z,corner=bottom_right,mirrored=false,outward_positive=true,part=body,visual=player_off": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/player/unpowered/body_positive_z"
+    },
+    "axis=z,corner=bottom_right,mirrored=false,outward_positive=true,part=body,visual=player_on": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/player/powered/body_positive_z"
+    },
+    "axis=z,corner=bottom_right,mirrored=false,outward_positive=true,part=tip,visual=normal": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/default/tip_negative_z"
+    },
+    "axis=z,corner=bottom_right,mirrored=false,outward_positive=true,part=tip,visual=force_off": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/force/unpowered/tip_negative_z"
+    },
+    "axis=z,corner=bottom_right,mirrored=false,outward_positive=true,part=tip,visual=force_on": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/force/powered/tip_negative_z"
+    },
+    "axis=z,corner=bottom_right,mirrored=false,outward_positive=true,part=tip,visual=player_off": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/player/unpowered/tip_negative_z"
+    },
+    "axis=z,corner=bottom_right,mirrored=false,outward_positive=true,part=tip,visual=player_on": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/player/powered/tip_negative_z"
+    },
+    "axis=z,corner=bottom_right,mirrored=true,outward_positive=false,part=body,visual=normal": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/default/body_negative_z"
+    },
+    "axis=z,corner=bottom_right,mirrored=true,outward_positive=false,part=body,visual=force_off": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/force/unpowered/body_negative_z"
+    },
+    "axis=z,corner=bottom_right,mirrored=true,outward_positive=false,part=body,visual=force_on": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/force/powered/body_negative_z"
+    },
+    "axis=z,corner=bottom_right,mirrored=true,outward_positive=false,part=body,visual=player_off": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/player/unpowered/body_negative_z"
+    },
+    "axis=z,corner=bottom_right,mirrored=true,outward_positive=false,part=body,visual=player_on": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/player/powered/body_negative_z"
+    },
+    "axis=z,corner=bottom_right,mirrored=true,outward_positive=false,part=tip,visual=normal": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/default/tip_positive_z"
+    },
+    "axis=z,corner=bottom_right,mirrored=true,outward_positive=false,part=tip,visual=force_off": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/force/unpowered/tip_positive_z"
+    },
+    "axis=z,corner=bottom_right,mirrored=true,outward_positive=false,part=tip,visual=force_on": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/force/powered/tip_positive_z"
+    },
+    "axis=z,corner=bottom_right,mirrored=true,outward_positive=false,part=tip,visual=player_off": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/player/unpowered/tip_positive_z"
+    },
+    "axis=z,corner=bottom_right,mirrored=true,outward_positive=false,part=tip,visual=player_on": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/player/powered/tip_positive_z"
+    },
+    "axis=z,corner=bottom_right,mirrored=true,outward_positive=true,part=body,visual=normal": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/default/body_positive_z"
+    },
+    "axis=z,corner=bottom_right,mirrored=true,outward_positive=true,part=body,visual=force_off": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/force/unpowered/body_positive_z"
+    },
+    "axis=z,corner=bottom_right,mirrored=true,outward_positive=true,part=body,visual=force_on": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/force/powered/body_positive_z"
+    },
+    "axis=z,corner=bottom_right,mirrored=true,outward_positive=true,part=body,visual=player_off": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/player/unpowered/body_positive_z"
+    },
+    "axis=z,corner=bottom_right,mirrored=true,outward_positive=true,part=body,visual=player_on": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/player/powered/body_positive_z"
+    },
+    "axis=z,corner=bottom_right,mirrored=true,outward_positive=true,part=tip,visual=normal": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/default/tip_negative_z"
+    },
+    "axis=z,corner=bottom_right,mirrored=true,outward_positive=true,part=tip,visual=force_off": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/force/unpowered/tip_negative_z"
+    },
+    "axis=z,corner=bottom_right,mirrored=true,outward_positive=true,part=tip,visual=force_on": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/force/powered/tip_negative_z"
+    },
+    "axis=z,corner=bottom_right,mirrored=true,outward_positive=true,part=tip,visual=player_off": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/player/unpowered/tip_negative_z"
+    },
+    "axis=z,corner=bottom_right,mirrored=true,outward_positive=true,part=tip,visual=player_on": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/player/powered/tip_negative_z"
+    },
+    "axis=z,corner=top_left,mirrored=false,outward_positive=false,part=body,visual=normal": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/default/body_negative_z",
+      "x": 180,
+      "y": 180
+    },
+    "axis=z,corner=top_left,mirrored=false,outward_positive=false,part=body,visual=force_off": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/force/unpowered/body_negative_z",
+      "x": 180,
+      "y": 180
+    },
+    "axis=z,corner=top_left,mirrored=false,outward_positive=false,part=body,visual=force_on": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/force/powered/body_negative_z",
+      "x": 180,
+      "y": 180
+    },
+    "axis=z,corner=top_left,mirrored=false,outward_positive=false,part=body,visual=player_off": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/player/unpowered/body_negative_z",
+      "x": 180,
+      "y": 180
+    },
+    "axis=z,corner=top_left,mirrored=false,outward_positive=false,part=body,visual=player_on": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/player/powered/body_negative_z",
+      "x": 180,
+      "y": 180
+    },
+    "axis=z,corner=top_left,mirrored=false,outward_positive=false,part=tip,visual=normal": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/default/tip_positive_z",
+      "x": 180,
+      "y": 180
+    },
+    "axis=z,corner=top_left,mirrored=false,outward_positive=false,part=tip,visual=force_off": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/force/unpowered/tip_positive_z",
+      "x": 180,
+      "y": 180
+    },
+    "axis=z,corner=top_left,mirrored=false,outward_positive=false,part=tip,visual=force_on": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/force/powered/tip_positive_z",
+      "x": 180,
+      "y": 180
+    },
+    "axis=z,corner=top_left,mirrored=false,outward_positive=false,part=tip,visual=player_off": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/player/unpowered/tip_positive_z",
+      "x": 180,
+      "y": 180
+    },
+    "axis=z,corner=top_left,mirrored=false,outward_positive=false,part=tip,visual=player_on": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/player/powered/tip_positive_z",
+      "x": 180,
+      "y": 180
+    },
+    "axis=z,corner=top_left,mirrored=false,outward_positive=true,part=body,visual=normal": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/default/body_positive_z",
+      "x": 180,
+      "y": 180
+    },
+    "axis=z,corner=top_left,mirrored=false,outward_positive=true,part=body,visual=force_off": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/force/unpowered/body_positive_z",
+      "x": 180,
+      "y": 180
+    },
+    "axis=z,corner=top_left,mirrored=false,outward_positive=true,part=body,visual=force_on": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/force/powered/body_positive_z",
+      "x": 180,
+      "y": 180
+    },
+    "axis=z,corner=top_left,mirrored=false,outward_positive=true,part=body,visual=player_off": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/player/unpowered/body_positive_z",
+      "x": 180,
+      "y": 180
+    },
+    "axis=z,corner=top_left,mirrored=false,outward_positive=true,part=body,visual=player_on": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/player/powered/body_positive_z",
+      "x": 180,
+      "y": 180
+    },
+    "axis=z,corner=top_left,mirrored=false,outward_positive=true,part=tip,visual=normal": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/default/tip_negative_z",
+      "x": 180,
+      "y": 180
+    },
+    "axis=z,corner=top_left,mirrored=false,outward_positive=true,part=tip,visual=force_off": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/force/unpowered/tip_negative_z",
+      "x": 180,
+      "y": 180
+    },
+    "axis=z,corner=top_left,mirrored=false,outward_positive=true,part=tip,visual=force_on": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/force/powered/tip_negative_z",
+      "x": 180,
+      "y": 180
+    },
+    "axis=z,corner=top_left,mirrored=false,outward_positive=true,part=tip,visual=player_off": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/player/unpowered/tip_negative_z",
+      "x": 180,
+      "y": 180
+    },
+    "axis=z,corner=top_left,mirrored=false,outward_positive=true,part=tip,visual=player_on": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/player/powered/tip_negative_z",
+      "x": 180,
+      "y": 180
+    },
+    "axis=z,corner=top_left,mirrored=true,outward_positive=false,part=body,visual=normal": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/default/body_negative_z",
+      "x": 180,
+      "y": 180
+    },
+    "axis=z,corner=top_left,mirrored=true,outward_positive=false,part=body,visual=force_off": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/force/unpowered/body_negative_z",
+      "x": 180,
+      "y": 180
+    },
+    "axis=z,corner=top_left,mirrored=true,outward_positive=false,part=body,visual=force_on": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/force/powered/body_negative_z",
+      "x": 180,
+      "y": 180
+    },
+    "axis=z,corner=top_left,mirrored=true,outward_positive=false,part=body,visual=player_off": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/player/unpowered/body_negative_z",
+      "x": 180,
+      "y": 180
+    },
+    "axis=z,corner=top_left,mirrored=true,outward_positive=false,part=body,visual=player_on": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/player/powered/body_negative_z",
+      "x": 180,
+      "y": 180
+    },
+    "axis=z,corner=top_left,mirrored=true,outward_positive=false,part=tip,visual=normal": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/default/tip_positive_z",
+      "x": 180,
+      "y": 180
+    },
+    "axis=z,corner=top_left,mirrored=true,outward_positive=false,part=tip,visual=force_off": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/force/unpowered/tip_positive_z",
+      "x": 180,
+      "y": 180
+    },
+    "axis=z,corner=top_left,mirrored=true,outward_positive=false,part=tip,visual=force_on": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/force/powered/tip_positive_z",
+      "x": 180,
+      "y": 180
+    },
+    "axis=z,corner=top_left,mirrored=true,outward_positive=false,part=tip,visual=player_off": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/player/unpowered/tip_positive_z",
+      "x": 180,
+      "y": 180
+    },
+    "axis=z,corner=top_left,mirrored=true,outward_positive=false,part=tip,visual=player_on": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/player/powered/tip_positive_z",
+      "x": 180,
+      "y": 180
+    },
+    "axis=z,corner=top_left,mirrored=true,outward_positive=true,part=body,visual=normal": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/default/body_positive_z",
+      "x": 180,
+      "y": 180
+    },
+    "axis=z,corner=top_left,mirrored=true,outward_positive=true,part=body,visual=force_off": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/force/unpowered/body_positive_z",
+      "x": 180,
+      "y": 180
+    },
+    "axis=z,corner=top_left,mirrored=true,outward_positive=true,part=body,visual=force_on": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/force/powered/body_positive_z",
+      "x": 180,
+      "y": 180
+    },
+    "axis=z,corner=top_left,mirrored=true,outward_positive=true,part=body,visual=player_off": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/player/unpowered/body_positive_z",
+      "x": 180,
+      "y": 180
+    },
+    "axis=z,corner=top_left,mirrored=true,outward_positive=true,part=body,visual=player_on": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/player/powered/body_positive_z",
+      "x": 180,
+      "y": 180
+    },
+    "axis=z,corner=top_left,mirrored=true,outward_positive=true,part=tip,visual=normal": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/default/tip_negative_z",
+      "x": 180,
+      "y": 180
+    },
+    "axis=z,corner=top_left,mirrored=true,outward_positive=true,part=tip,visual=force_off": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/force/unpowered/tip_negative_z",
+      "x": 180,
+      "y": 180
+    },
+    "axis=z,corner=top_left,mirrored=true,outward_positive=true,part=tip,visual=force_on": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/force/powered/tip_negative_z",
+      "x": 180,
+      "y": 180
+    },
+    "axis=z,corner=top_left,mirrored=true,outward_positive=true,part=tip,visual=player_off": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/player/unpowered/tip_negative_z",
+      "x": 180,
+      "y": 180
+    },
+    "axis=z,corner=top_left,mirrored=true,outward_positive=true,part=tip,visual=player_on": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/player/powered/tip_negative_z",
+      "x": 180,
+      "y": 180
+    },
+    "axis=z,corner=top_right,mirrored=false,outward_positive=false,part=body,visual=normal": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/default/body_positive_z",
+      "x": 180
+    },
+    "axis=z,corner=top_right,mirrored=false,outward_positive=false,part=body,visual=force_off": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/force/unpowered/body_positive_z",
+      "x": 180
+    },
+    "axis=z,corner=top_right,mirrored=false,outward_positive=false,part=body,visual=force_on": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/force/powered/body_positive_z",
+      "x": 180
+    },
+    "axis=z,corner=top_right,mirrored=false,outward_positive=false,part=body,visual=player_off": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/player/unpowered/body_positive_z",
+      "x": 180
+    },
+    "axis=z,corner=top_right,mirrored=false,outward_positive=false,part=body,visual=player_on": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/player/powered/body_positive_z",
+      "x": 180
+    },
+    "axis=z,corner=top_right,mirrored=false,outward_positive=false,part=tip,visual=normal": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/default/tip_negative_z",
+      "x": 180
+    },
+    "axis=z,corner=top_right,mirrored=false,outward_positive=false,part=tip,visual=force_off": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/force/unpowered/tip_negative_z",
+      "x": 180
+    },
+    "axis=z,corner=top_right,mirrored=false,outward_positive=false,part=tip,visual=force_on": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/force/powered/tip_negative_z",
+      "x": 180
+    },
+    "axis=z,corner=top_right,mirrored=false,outward_positive=false,part=tip,visual=player_off": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/player/unpowered/tip_negative_z",
+      "x": 180
+    },
+    "axis=z,corner=top_right,mirrored=false,outward_positive=false,part=tip,visual=player_on": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/player/powered/tip_negative_z",
+      "x": 180
+    },
+    "axis=z,corner=top_right,mirrored=false,outward_positive=true,part=body,visual=normal": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/default/body_negative_z",
+      "x": 180
+    },
+    "axis=z,corner=top_right,mirrored=false,outward_positive=true,part=body,visual=force_off": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/force/unpowered/body_negative_z",
+      "x": 180
+    },
+    "axis=z,corner=top_right,mirrored=false,outward_positive=true,part=body,visual=force_on": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/force/powered/body_negative_z",
+      "x": 180
+    },
+    "axis=z,corner=top_right,mirrored=false,outward_positive=true,part=body,visual=player_off": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/player/unpowered/body_negative_z",
+      "x": 180
+    },
+    "axis=z,corner=top_right,mirrored=false,outward_positive=true,part=body,visual=player_on": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/player/powered/body_negative_z",
+      "x": 180
+    },
+    "axis=z,corner=top_right,mirrored=false,outward_positive=true,part=tip,visual=normal": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/default/tip_positive_z",
+      "x": 180
+    },
+    "axis=z,corner=top_right,mirrored=false,outward_positive=true,part=tip,visual=force_off": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/force/unpowered/tip_positive_z",
+      "x": 180
+    },
+    "axis=z,corner=top_right,mirrored=false,outward_positive=true,part=tip,visual=force_on": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/force/powered/tip_positive_z",
+      "x": 180
+    },
+    "axis=z,corner=top_right,mirrored=false,outward_positive=true,part=tip,visual=player_off": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/player/unpowered/tip_positive_z",
+      "x": 180
+    },
+    "axis=z,corner=top_right,mirrored=false,outward_positive=true,part=tip,visual=player_on": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/player/powered/tip_positive_z",
+      "x": 180
+    },
+    "axis=z,corner=top_right,mirrored=true,outward_positive=false,part=body,visual=normal": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/default/body_positive_z",
+      "x": 180
+    },
+    "axis=z,corner=top_right,mirrored=true,outward_positive=false,part=body,visual=force_off": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/force/unpowered/body_positive_z",
+      "x": 180
+    },
+    "axis=z,corner=top_right,mirrored=true,outward_positive=false,part=body,visual=force_on": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/force/powered/body_positive_z",
+      "x": 180
+    },
+    "axis=z,corner=top_right,mirrored=true,outward_positive=false,part=body,visual=player_off": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/player/unpowered/body_positive_z",
+      "x": 180
+    },
+    "axis=z,corner=top_right,mirrored=true,outward_positive=false,part=body,visual=player_on": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/player/powered/body_positive_z",
+      "x": 180
+    },
+    "axis=z,corner=top_right,mirrored=true,outward_positive=false,part=tip,visual=normal": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/default/tip_negative_z",
+      "x": 180
+    },
+    "axis=z,corner=top_right,mirrored=true,outward_positive=false,part=tip,visual=force_off": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/force/unpowered/tip_negative_z",
+      "x": 180
+    },
+    "axis=z,corner=top_right,mirrored=true,outward_positive=false,part=tip,visual=force_on": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/force/powered/tip_negative_z",
+      "x": 180
+    },
+    "axis=z,corner=top_right,mirrored=true,outward_positive=false,part=tip,visual=player_off": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/player/unpowered/tip_negative_z",
+      "x": 180
+    },
+    "axis=z,corner=top_right,mirrored=true,outward_positive=false,part=tip,visual=player_on": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/player/powered/tip_negative_z",
+      "x": 180
+    },
+    "axis=z,corner=top_right,mirrored=true,outward_positive=true,part=body,visual=normal": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/default/body_negative_z",
+      "x": 180
+    },
+    "axis=z,corner=top_right,mirrored=true,outward_positive=true,part=body,visual=force_off": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/force/unpowered/body_negative_z",
+      "x": 180
+    },
+    "axis=z,corner=top_right,mirrored=true,outward_positive=true,part=body,visual=force_on": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/force/powered/body_negative_z",
+      "x": 180
+    },
+    "axis=z,corner=top_right,mirrored=true,outward_positive=true,part=body,visual=player_off": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/player/unpowered/body_negative_z",
+      "x": 180
+    },
+    "axis=z,corner=top_right,mirrored=true,outward_positive=true,part=body,visual=player_on": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/player/powered/body_negative_z",
+      "x": 180
+    },
+    "axis=z,corner=top_right,mirrored=true,outward_positive=true,part=tip,visual=normal": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/default/tip_positive_z",
+      "x": 180
+    },
+    "axis=z,corner=top_right,mirrored=true,outward_positive=true,part=tip,visual=force_off": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/force/unpowered/tip_positive_z",
+      "x": 180
+    },
+    "axis=z,corner=top_right,mirrored=true,outward_positive=true,part=tip,visual=force_on": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/force/powered/tip_positive_z",
+      "x": 180
+    },
+    "axis=z,corner=top_right,mirrored=true,outward_positive=true,part=tip,visual=player_off": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/player/unpowered/tip_positive_z",
+      "x": 180
+    },
+    "axis=z,corner=top_right,mirrored=true,outward_positive=true,part=tip,visual=player_on": {
+      "model": "pneumaticdiversityvents:block/vent/terminal/player/powered/tip_positive_z",
+      "x": 180
+    }
+  }
+}

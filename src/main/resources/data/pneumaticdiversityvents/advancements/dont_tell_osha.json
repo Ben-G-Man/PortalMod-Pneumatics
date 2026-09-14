@@ -1,0 +1,15 @@
+{
+  "parent": "pneumaticdiversityvents:too_fast_too_factory",
+  "display": {
+    "icon": { "item": "pneumaticdiversityvents:vent_segment" },
+    "title": { "translate": "advancement.pneumaticdiversityvents.dont_tell_osha.title" },
+    "description": { "translate": "advancement.pneumaticdiversityvents.dont_tell_osha.description" },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "fatal_exit_fall": { "trigger": "minecraft:impossible" }
+  }
+}

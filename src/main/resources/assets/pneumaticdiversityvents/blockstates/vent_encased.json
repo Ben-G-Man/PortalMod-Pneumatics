@@ -1,0 +1,57 @@
+{
+  "variants": {
+    "axis=x,corner=bottom_left": {
+      "model": "pneumaticdiversityvents:block/vent/encased/base",
+      "y": 270
+    },
+    "axis=x,corner=bottom_right": {
+      "model": "pneumaticdiversityvents:block/vent/encased/base",
+      "y": 90
+    },
+    "axis=x,corner=top_left": {
+      "model": "pneumaticdiversityvents:block/vent/encased/base",
+      "x": 180,
+      "y": 270
+    },
+    "axis=x,corner=top_right": {
+      "model": "pneumaticdiversityvents:block/vent/encased/base",
+      "x": 180,
+      "y": 90
+    },
+    "axis=y,corner=bottom_left": {
+      "model": "pneumaticdiversityvents:block/vent/encased/base",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y,corner=bottom_right": {
+      "model": "pneumaticdiversityvents:block/vent/encased/base",
+      "x": 90
+    },
+    "axis=y,corner=top_left": {
+      "model": "pneumaticdiversityvents:block/vent/encased/base",
+      "x": 90,
+      "y": 180
+    },
+    "axis=y,corner=top_right": {
+      "model": "pneumaticdiversityvents:block/vent/encased/base",
+      "x": 90,
+      "y": 270
+    },
+    "axis=z,corner=bottom_left": {
+      "model": "pneumaticdiversityvents:block/vent/encased/base",
+      "y": 180
+    },
+    "axis=z,corner=bottom_right": {
+      "model": "pneumaticdiversityvents:block/vent/encased/base"
+    },
+    "axis=z,corner=top_left": {
+      "model": "pneumaticdiversityvents:block/vent/encased/base",
+      "x": 180,
+      "y": 180
+    },
+    "axis=z,corner=top_right": {
+      "model": "pneumaticdiversityvents:block/vent/encased/base",
+      "x": 180
+    }
+  }
+}

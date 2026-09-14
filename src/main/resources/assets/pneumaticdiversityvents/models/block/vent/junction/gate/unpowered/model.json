@@ -1,0 +1,7 @@
+{
+  "parent": "pneumaticdiversityvents:block/vent/junction/gate/model",
+  "textures": {
+    "0": "pneumaticdiversityvents:block/vent/junction/gate/unpowered/gate",
+    "particle": "pneumaticdiversityvents:block/vent/break/glass"
+  }
+}

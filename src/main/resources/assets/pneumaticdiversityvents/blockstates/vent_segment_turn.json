@@ -1,0 +1,216 @@
+{
+  "variants": {
+    "piece=inner,orientation=up_south,mirrored=false": {
+      "model": "pneumaticdiversityvents:block/vent/segment/turn/inner_mirrored",
+      "x": 180,
+      "y": 180
+    },
+    "piece=inner,orientation=up_south,mirrored=true": {
+      "model": "pneumaticdiversityvents:block/vent/segment/turn/inner",
+      "x": 90,
+      "y": 270
+    },
+    "piece=inner,orientation=up_north,mirrored=false": {
+      "model": "pneumaticdiversityvents:block/vent/segment/turn/inner_mirrored",
+      "x": 180
+    },
+    "piece=inner,orientation=up_north,mirrored=true": {
+      "model": "pneumaticdiversityvents:block/vent/segment/turn/inner",
+      "x": 90,
+      "y": 90
+    },
+    "piece=inner,orientation=up_east,mirrored=false": {
+      "model": "pneumaticdiversityvents:block/vent/segment/turn/inner_mirrored",
+      "x": 180,
+      "y": 90
+    },
+    "piece=inner,orientation=up_east,mirrored=true": {
+      "model": "pneumaticdiversityvents:block/vent/segment/turn/inner",
+      "x": 90,
+      "y": 180
+    },
+    "piece=inner,orientation=up_west,mirrored=false": {
+      "model": "pneumaticdiversityvents:block/vent/segment/turn/inner_mirrored",
+      "x": 180,
+      "y": 270
+    },
+    "piece=inner,orientation=up_west,mirrored=true": {
+      "model": "pneumaticdiversityvents:block/vent/segment/turn/inner",
+      "x": 90
+    },
+    "piece=inner,orientation=down_south,mirrored=false": {
+      "model": "pneumaticdiversityvents:block/vent/segment/turn/inner_mirrored"
+    },
+    "piece=inner,orientation=down_south,mirrored=true": {
+      "model": "pneumaticdiversityvents:block/vent/segment/turn/inner",
+      "x": 270,
+      "y": 270
+    },
+    "piece=inner,orientation=down_north,mirrored=false": {
+      "model": "pneumaticdiversityvents:block/vent/segment/turn/inner_mirrored",
+      "y": 180
+    },
+    "piece=inner,orientation=down_north,mirrored=true": {
+      "model": "pneumaticdiversityvents:block/vent/segment/turn/inner",
+      "x": 270,
+      "y": 90
+    },
+    "piece=inner,orientation=down_east,mirrored=false": {
+      "model": "pneumaticdiversityvents:block/vent/segment/turn/inner_mirrored",
+      "y": 270
+    },
+    "piece=inner,orientation=down_east,mirrored=true": {
+      "model": "pneumaticdiversityvents:block/vent/segment/turn/inner",
+      "x": 270,
+      "y": 180
+    },
+    "piece=inner,orientation=down_west,mirrored=false": {
+      "model": "pneumaticdiversityvents:block/vent/segment/turn/inner_mirrored",
+      "y": 90
+    },
+    "piece=inner,orientation=down_west,mirrored=true": {
+      "model": "pneumaticdiversityvents:block/vent/segment/turn/inner",
+      "x": 270
+    },
+    "piece=inner,orientation=east_south,mirrored=false": {
+      "model": "pneumaticdiversityvents:block/vent/segment/turn/inner",
+      "x": 180,
+      "y": 180
+    },
+    "piece=inner,orientation=east_south,mirrored=true": {
+      "model": "pneumaticdiversityvents:block/vent/segment/turn/inner",
+      "y": 270
+    },
+    "piece=inner,orientation=east_north,mirrored=false": {
+      "model": "pneumaticdiversityvents:block/vent/segment/turn/inner",
+      "y": 180
+    },
+    "piece=inner,orientation=east_north,mirrored=true": {
+      "model": "pneumaticdiversityvents:block/vent/segment/turn/inner",
+      "x": 180,
+      "y": 90
+    },
+    "piece=inner,orientation=west_south,mirrored=false": {
+      "model": "pneumaticdiversityvents:block/vent/segment/turn/inner"
+    },
+    "piece=inner,orientation=west_south,mirrored=true": {
+      "model": "pneumaticdiversityvents:block/vent/segment/turn/inner",
+      "x": 180,
+      "y": 270
+    },
+    "piece=inner,orientation=west_north,mirrored=false": {
+      "model": "pneumaticdiversityvents:block/vent/segment/turn/inner",
+      "x": 180
+    },
+    "piece=inner,orientation=west_north,mirrored=true": {
+      "model": "pneumaticdiversityvents:block/vent/segment/turn/inner",
+      "y": 90
+    },
+    "piece=outer,orientation=up_south,mirrored=false": {
+      "model": "pneumaticdiversityvents:block/vent/segment/turn/outer"
+    },
+    "piece=outer,orientation=up_south,mirrored=true": {
+      "model": "pneumaticdiversityvents:block/vent/segment/turn/outer",
+      "x": 90,
+      "y": 180
+    },
+    "piece=outer,orientation=up_north,mirrored=false": {
+      "model": "pneumaticdiversityvents:block/vent/segment/turn/outer",
+      "y": 180
+    },
+    "piece=outer,orientation=up_north,mirrored=true": {
+      "model": "pneumaticdiversityvents:block/vent/segment/turn/outer",
+      "x": 90
+    },
+    "piece=outer,orientation=up_east,mirrored=false": {
+      "model": "pneumaticdiversityvents:block/vent/segment/turn/outer",
+      "y": 270
+    },
+    "piece=outer,orientation=up_east,mirrored=true": {
+      "model": "pneumaticdiversityvents:block/vent/segment/turn/outer",
+      "x": 90,
+      "y": 90
+    },
+    "piece=outer,orientation=up_west,mirrored=false": {
+      "model": "pneumaticdiversityvents:block/vent/segment/turn/outer",
+      "y": 90
+    },
+    "piece=outer,orientation=up_west,mirrored=true": {
+      "model": "pneumaticdiversityvents:block/vent/segment/turn/outer",
+      "x": 90,
+      "y": 270
+    },
+    "piece=outer,orientation=down_south,mirrored=false": {
+      "model": "pneumaticdiversityvents:block/vent/segment/turn/outer",
+      "x": 180,
+      "y": 180
+    },
+    "piece=outer,orientation=down_south,mirrored=true": {
+      "model": "pneumaticdiversityvents:block/vent/segment/turn/outer",
+      "x": 270
+    },
+    "piece=outer,orientation=down_north,mirrored=false": {
+      "model": "pneumaticdiversityvents:block/vent/segment/turn/outer",
+      "x": 180
+    },
+    "piece=outer,orientation=down_north,mirrored=true": {
+      "model": "pneumaticdiversityvents:block/vent/segment/turn/outer",
+      "x": 270,
+      "y": 180
+    },
+    "piece=outer,orientation=down_east,mirrored=false": {
+      "model": "pneumaticdiversityvents:block/vent/segment/turn/outer",
+      "x": 180,
+      "y": 90
+    },
+    "piece=outer,orientation=down_east,mirrored=true": {
+      "model": "pneumaticdiversityvents:block/vent/segment/turn/outer",
+      "x": 270,
+      "y": 270
+    },
+    "piece=outer,orientation=down_west,mirrored=false": {
+      "model": "pneumaticdiversityvents:block/vent/segment/turn/outer",
+      "x": 180,
+      "y": 270
+    },
+    "piece=outer,orientation=down_west,mirrored=true": {
+      "model": "pneumaticdiversityvents:block/vent/segment/turn/outer",
+      "x": 270,
+      "y": 90
+    },
+    "piece=outer,orientation=east_south,mirrored=false": {
+      "model": "pneumaticdiversityvents:block/vent/segment/turn/outer_mirrored",
+      "x": 180,
+      "y": 180
+    },
+    "piece=outer,orientation=east_south,mirrored=true": {
+      "model": "pneumaticdiversityvents:block/vent/segment/turn/outer_mirrored",
+      "y": 270
+    },
+    "piece=outer,orientation=east_north,mirrored=false": {
+      "model": "pneumaticdiversityvents:block/vent/segment/turn/outer_mirrored",
+      "y": 180
+    },
+    "piece=outer,orientation=east_north,mirrored=true": {
+      "model": "pneumaticdiversityvents:block/vent/segment/turn/outer_mirrored",
+      "x": 180,
+      "y": 90
+    },
+    "piece=outer,orientation=west_south,mirrored=false": {
+      "model": "pneumaticdiversityvents:block/vent/segment/turn/outer_mirrored"
+    },
+    "piece=outer,orientation=west_south,mirrored=true": {
+      "model": "pneumaticdiversityvents:block/vent/segment/turn/outer_mirrored",
+      "x": 180,
+      "y": 270
+    },
+    "piece=outer,orientation=west_north,mirrored=false": {
+      "model": "pneumaticdiversityvents:block/vent/segment/turn/outer_mirrored",
+      "x": 180
+    },
+    "piece=outer,orientation=west_north,mirrored=true": {
+      "model": "pneumaticdiversityvents:block/vent/segment/turn/outer_mirrored",
+      "y": 90
+    }
+  }
+}

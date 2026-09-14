@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "RGR",
+    "GSG",
+    "RGR"
+  ],
+  "key": {
+    "R": {
+      "item": "minecraft:redstone"
+    },
+    "G": {
+      "item": "minecraft:glass_pane"
+    },
+    "S": {
+      "item": "pneumaticdiversityvents:vent_segment"
+    }
+  },
+  "result": {
+    "item": "pneumaticdiversityvents:vent_scanner",
+    "count": 1
+  }
+}

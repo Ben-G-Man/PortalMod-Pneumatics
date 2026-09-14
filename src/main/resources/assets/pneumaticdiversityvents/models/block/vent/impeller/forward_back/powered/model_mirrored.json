@@ -1,0 +1,9 @@
+{
+  "parent": "pneumaticdiversityvents:block/vent/impeller/shared/base_mirrored",
+  "textures": {
+    "2": "pneumaticdiversityvents:block/vent/impeller/forward_back/powered/outer",
+    "3": "pneumaticdiversityvents:block/vent/impeller/shared/inner",
+    "4": "pneumaticdiversityvents:block/vent/impeller/shared/blade_reverse",
+    "particle": "pneumaticdiversityvents:block/vent/break/case"
+  }
+}

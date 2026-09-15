@@ -1,14 +1,23 @@
 {
   "display": {
-    "icon": { "item": "pneumaticdiversityvents:vent_impeller" },
-    "title": { "translate": "advancement.pneumaticdiversityvents.too_fast_too_factory.title" },
-    "description": { "translate": "advancement.pneumaticdiversityvents.too_fast_too_factory.description" },
+    "icon": {
+      "item": "pneumaticdiversityvents:vent_impeller"
+    },
+    "title": {
+      "translate": "advancement.pneumaticdiversityvents.too_fast_too_factory.title"
+    },
+    "description": {
+      "translate": "advancement.pneumaticdiversityvents.too_fast_too_factory.description"
+    },
     "frame": "goal",
     "show_toast": true,
     "announce_to_chat": true,
-    "hidden": false
+    "hidden": false,
+    "background": "portalmod:textures/gui/advancements/backgrounds/portal.png"
   },
   "criteria": {
-    "max_speed_ride": { "trigger": "minecraft:impossible" }
+    "max_speed_ride": {
+      "trigger": "minecraft:impossible"
+    }
   }
 }

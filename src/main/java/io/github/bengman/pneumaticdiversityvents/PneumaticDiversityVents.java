@@ -111,9 +111,7 @@ public class PneumaticDiversityVents {
                 .strength(2.5F)
                 .harvestTool(ToolType.PICKAXE)
                 .harvestLevel(0)
-                .sound(SoundType.METAL)
-                .lightLevel(state -> state.hasProperty(VentTerminalBlock.VISUAL)
-                        && state.getValue(VentTerminalBlock.VISUAL).isLit() ? 7 : 0);
+                .sound(SoundType.METAL);
     }
 
     private static AbstractBlock.Properties scannerProperties() {
@@ -121,9 +119,7 @@ public class PneumaticDiversityVents {
                 .strength(2.5F)
                 .harvestTool(ToolType.PICKAXE)
                 .harvestLevel(0)
-                .sound(SoundType.GLASS)
-                .lightLevel(state -> state.hasProperty(VentScannerBlock.VISUAL)
-                        && state.getValue(VentScannerBlock.VISUAL).isActive() ? 5 : 0);
+                .sound(SoundType.GLASS);
     }
 
     private static AbstractBlock.Properties junctionProperties() {

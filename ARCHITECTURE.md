@@ -71,7 +71,7 @@ Transport speed depends only on absolute net force and is identical for everythi
 - linear increase through force 12;
 - force 12+: `2.00` blocks/tick cap.
 
-Non-player entities require `netForce != 0`. Players require `abs(netForce) >= 3`. Creative players who are actively flying are explicitly excluded from deterministic capture/continued transport and from external vent acceleration. At zero net force, transport releases immediately back to normal Minecraft physics.
+Non-player entities require `netForce != 0`. Players require three aligned impellers: `MINIMUM_IMPELLERS_TO_TRANSPORT_PLAYER = 3`, deriving `MINIMUM_FORCE_TO_TRANSPORT_PLAYER = 6` from `VentImpellerBlock.FORCE_UNITS = 2`. Creative players who are actively flying are explicitly excluded from deterministic capture/continued transport and from external vent acceleration. At zero net force, transport releases immediately back to normal Minecraft physics.
 
 While captured, normal collision/gravity and mob AI are temporarily suppressed; projectiles have impact events canceled. Players use velocity-synchronized movement for smooth rendering while the path distance remains authoritative. Open-end exits clear the shell before release and receive current transport velocity plus a small exit bonus.
 
@@ -233,7 +233,7 @@ Network membership, cached net force, transport state and external fields are de
 - `invertImpeller(world, pos)` — O(1) base-polarity update plus synchronized physical blockstate refresh.
 - `isImpellerAntlineControlled(pos)` / `getImpellerControlMode(pos)` / `cycleImpellerControlMode(world, pos)` — Portal-style test-element configuration.
 - `VentTransportManager.getTransportSpeed(netForce)` — shared internal speed curve.
-- `VentTransportManager.PLAYER_FORCE_THRESHOLD` — currently `3` net units.
+- `VentTransportManager.MINIMUM_IMPELLERS_TO_TRANSPORT_PLAYER` — currently `3`; `MINIMUM_FORCE_TO_TRANSPORT_PLAYER` is derived from it and `VentImpellerBlock.FORCE_UNITS` (currently `6` net units).
 - `VentExternalFieldManager` — debounced fields, cached visibility and vector accumulation.
 - `VentExternalFieldProfileProvider` — endpoint-type customization seam.
 - `VentOcclusionTester` — airflow line-of-sight using real collision shapes + transparent tag.
@@ -265,7 +265,7 @@ The focusing terminal stores its wrench-selected presentation directly in the `V
 
 - `NORMAL` — unlit regardless of airflow/activity;
 - `FORCE` — lit while the containing network has non-zero net force;
-- `PLAYER` — lit while the network is capable of carrying players: it has an active field and `abs(netForce) >= PLAYER_FORCE_THRESHOLD`. This is a capability indicator, not an occupancy detector.
+- `PLAYER` — lit while the network is capable of carrying players: it has an active field and `VentTransportManager.canTransportPlayer(netForce)`. This is a capability indicator, not an occupancy detector.
 
 `VentTerminalStateManager` resolves the runtime lit/unlit member once per server tick and updates all physical blocks belonging to the terminal edge. The focused force profile itself is unchanged by the indication mode.
 

@@ -53,7 +53,7 @@ public final class VentTerminalStateManager {
                 break;
             case PLAYER:
                 lit = network != null && network.hasActiveForceField()
-                        && Math.abs(network.getNetForce()) >= VentTransportManager.PLAYER_FORCE_THRESHOLD;
+                        && VentTransportManager.canTransportPlayer(network.getNetForce());
                 break;
             default:
                 lit = false;

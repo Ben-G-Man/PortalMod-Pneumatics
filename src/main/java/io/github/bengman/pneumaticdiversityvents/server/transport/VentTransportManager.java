@@ -7,6 +7,7 @@ import io.github.bengman.pneumaticdiversityvents.server.network.VentConnection;
 import io.github.bengman.pneumaticdiversityvents.server.network.VentEdge;
 import io.github.bengman.pneumaticdiversityvents.server.network.VentNetwork;
 import io.github.bengman.pneumaticdiversityvents.server.world.VentScannerManager;
+import io.github.bengman.pneumaticdiversityvents.shared.VentImpellerBlock;
 
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.MobEntity;
@@ -34,7 +35,9 @@ public final class VentTransportManager {
     public static final double BASE_TRANSPORT_SPEED = 0.40D;
     public static final double MAX_TRANSPORT_SPEED = 2.00D;
     public static final int MAX_SPEED_FORCE = 12;
-    public static final int PLAYER_FORCE_THRESHOLD = 3;
+    public static final int MINIMUM_IMPELLERS_TO_TRANSPORT_PLAYER = 3;
+    public static final int MINIMUM_FORCE_TO_TRANSPORT_PLAYER =
+            MINIMUM_IMPELLERS_TO_TRANSPORT_PLAYER * VentImpellerBlock.FORCE_UNITS;
 
     private static final double CAPTURE_RADIUS = 0.80D;
     private static final double MOUTH_HANDOFF_DEPTH = 0.85D;
@@ -306,9 +309,13 @@ public final class VentTransportManager {
         int netForce = network.getNetForce();
         if (entity instanceof ServerPlayerEntity) {
             ServerPlayerEntity player = (ServerPlayerEntity) entity;
-            return Math.abs(netForce) >= PLAYER_FORCE_THRESHOLD && !player.isSpectator() && !isCreativeFlying(player);
+            return canTransportPlayer(netForce) && !player.isSpectator() && !isCreativeFlying(player);
         }
         return netForce != 0;
+    }
+
+    public static boolean canTransportPlayer(int netForce) {
+        return Math.abs(netForce) >= MINIMUM_FORCE_TO_TRANSPORT_PLAYER;
     }
 
     /* All entities in one network use the same speed derived only from absolute net impeller force. */

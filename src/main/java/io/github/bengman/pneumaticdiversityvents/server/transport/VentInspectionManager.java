@@ -47,7 +47,7 @@ public final class VentInspectionManager {
         boolean aToB = VentTransportManager.flowAToB(edge, network.getNetForce());
         Vector3d direction = path.tangent(projection.getDistance(), aToB);
         double speed = VentTransportManager.getTransportSpeed(network.getNetForce()) * 20.0D;
-        boolean playerCapable = Math.abs(network.getNetForce()) >= VentTransportManager.PLAYER_FORCE_THRESHOLD;
+        boolean playerCapable = VentTransportManager.canTransportPlayer(network.getNetForce());
         return new VentInspectionPacket(true, direction, speed, playerCapable);
     }
 }

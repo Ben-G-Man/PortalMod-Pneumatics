@@ -418,10 +418,10 @@ public final class VentExternalFieldManager {
         if (entity instanceof ServerPlayerEntity) {
             ServerPlayerEntity player = (ServerPlayerEntity) entity;
             return !player.isSpectator() && !isCreativeFlying(player)
-                    && field.getForceMagnitude() >= VentTransportManager.PLAYER_FORCE_THRESHOLD;
+                    && VentTransportManager.canTransportPlayer(field.getNetForce());
         }
         // A weak field must not move a player indirectly by accelerating the vehicle they are riding.
-        if (field.getForceMagnitude() < VentTransportManager.PLAYER_FORCE_THRESHOLD && hasPlayerPassenger(entity)) return false;
+        if (!VentTransportManager.canTransportPlayer(field.getNetForce()) && hasPlayerPassenger(entity)) return false;
         return true;
     }
 

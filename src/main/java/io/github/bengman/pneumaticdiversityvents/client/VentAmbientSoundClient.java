@@ -52,7 +52,7 @@ public final class VentAmbientSoundClient {
                 minecraft.getSoundManager().play(wind);
             } else wind.update(network.getPoints(), network.getNetForce());
 
-            if (Math.abs(network.getNetForce()) >= VentTransportManager.PLAYER_FORCE_THRESHOLD) {
+            if (VentTransportManager.canTransportPlayer(network.getNetForce())) {
                 overchargedNetworks.add(network.getId());
                 NetworkRattleSound rattle = RATTLES.get(network.getId());
                 if (rattle == null || rattle.isStopped()) {

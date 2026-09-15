@@ -27,7 +27,7 @@ public final class VentInspectionClient {
     private static final ResourceLocation PERSON_CAPABLE = new ResourceLocation(PneumaticDiversityVents.MOD_ID, "textures/gui/vent_inspection_person_capable.png");
     private static final ResourceLocation PERSON_INCAPABLE = new ResourceLocation(PneumaticDiversityVents.MOD_ID, "textures/gui/vent_inspection_person_incapable.png");
     private static final int ARROW_W = 24, ARROW_H = 11;
-    private static final int PERSON_W = 9, PERSON_H = 13;
+    private static final int PERSON_W = 16, PERSON_H = 16;
 
     private static VentInspectionPacket snapshot = VentInspectionPacket.hidden();
     private static int receivedTick = Integer.MIN_VALUE;

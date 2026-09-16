@@ -2,6 +2,7 @@
 package io.github.bengman.pneumaticdiversityvents.shared;
 
 import io.github.bengman.pneumaticdiversityvents.PneumaticDiversityVents;
+import io.github.bengman.pneumaticdiversityvents.config.VentCommonConfig;
 import io.github.bengman.pneumaticdiversityvents.server.VentSpatialRegistry;
 import io.github.bengman.pneumaticdiversityvents.server.integration.VentAntlineConnections;
 import io.github.bengman.pneumaticdiversityvents.shared.world.RotatedVentShapeProvider;
@@ -30,7 +31,9 @@ import net.portalmod.common.items.WrenchItem;
 import net.portalmod.common.sorted.antline.AntlineConnector;
 
 public final class VentImpellerBlock extends VentBlock implements AntlineConnector {
-    public static final int FORCE_UNITS = 2;
+    public static int getForceUnits() {
+        return VentCommonConfig.forceUnitsPerImpeller();
+    }
     /* DIRECTION stores the configured/base physical direction only. Powered reverse changes force + textures, never model geometry. */
     public static final BooleanProperty DIRECTION = BooleanProperty.create("direction");
     public static final BooleanProperty ACTIVE = BooleanProperty.create("active");

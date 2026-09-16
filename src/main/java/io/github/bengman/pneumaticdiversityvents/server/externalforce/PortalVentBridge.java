@@ -72,7 +72,7 @@ public final class PortalVentBridge {
 
         boolean intake = targetNormalForce < 0.0D;
         Direction outwardDirection = directionFromNormal(targetNormal);
-        double networkScale = VentTransportManager.getTransportSpeed(source.getNetForce()) / VentTransportManager.BASE_TRANSPORT_SPEED;
+        double networkScale = VentTransportManager.getTransportSpeed(source.getNetForce()) / VentTransportManager.getBaseTransportSpeed();
         if (networkScale <= 1.0E-8D) return;
 
         double sourceMouthAcceleration = source.getProfile().getBaseAcceleration() * networkScale;

@@ -65,13 +65,9 @@ Internal movement is intentionally **not acceleration physics**. `VentTransportM
 - bends: radius-1 quarter-circle through the 2x2x2 elbow;
 - open boundaries: short virtual centerline continuations for clean entry/exit.
 
-Transport speed depends only on absolute net force and is identical for everything currently transported in the same network:
+Transport speed depends only on absolute net force and is identical for everything currently transported in the same network. The default curve is force 1 = `0.40` blocks/tick, linear growth through force 12, and a `2.00` blocks/tick cap. Those values, the per-impeller force contribution, and the minimum aligned impeller count for player transport are sourced from `pneumaticdiversityvents-common.toml` through `VentCommonConfig`.
 
-- force 1: `0.40` blocks/tick;
-- linear increase through force 12;
-- force 12+: `2.00` blocks/tick cap.
-
-Non-player entities require `netForce != 0`. Players require three aligned impellers: `MINIMUM_IMPELLERS_TO_TRANSPORT_PLAYER = 3`, deriving `MINIMUM_FORCE_TO_TRANSPORT_PLAYER = 6` from `VentImpellerBlock.FORCE_UNITS = 2`. Creative players who are actively flying are explicitly excluded from deterministic capture/continued transport and from external vent acceleration. At zero net force, transport releases immediately back to normal Minecraft physics.
+Non-player entities require `netForce != 0`. By default players require three aligned active impellers: `3 * 2 = 6` absolute net force. Creative players who are actively flying are explicitly excluded from deterministic capture/continued transport and from external vent acceleration. At zero net force, transport releases immediately back to normal Minecraft physics.
 
 While captured, normal collision/gravity and mob AI are temporarily suppressed; projectiles have impact events canceled. Players use velocity-synchronized movement for smooth rendering while the path distance remains authoritative. Open-end exits clear the shell before release and receive current transport velocity plus a small exit bonus.
 
@@ -232,11 +228,18 @@ Network membership, cached net force, transport state and external fields are de
 - `getNetworkForce(pos)` / `getLocalForce(pos)` — canonical/local signed force.
 - `invertImpeller(world, pos)` — O(1) base-polarity update plus synchronized physical blockstate refresh.
 - `isImpellerAntlineControlled(pos)` / `getImpellerControlMode(pos)` / `cycleImpellerControlMode(world, pos)` — Portal-style test-element configuration.
-- `VentTransportManager.getTransportSpeed(netForce)` — shared internal speed curve.
-- `VentTransportManager.MINIMUM_IMPELLERS_TO_TRANSPORT_PLAYER` — currently `3`; `MINIMUM_FORCE_TO_TRANSPORT_PLAYER` is derived from it and `VentImpellerBlock.FORCE_UNITS` (currently `6` net units).
+- `VentCommonConfig` — Forge common TOML source of truth for impeller force, player threshold, and transport-speed curve.
+- `VentTransportManager.getTransportSpeed(netForce)` — shared configured internal speed curve.
+- `VentTransportManager.canTransportPlayer(netForce)` — configured player-transport threshold (`minimum impellers * force units per impeller`).
 - `VentExternalFieldManager` — debounced fields, cached visibility and vector accumulation.
 - `VentExternalFieldProfileProvider` — endpoint-type customization seam.
 - `VentOcclusionTester` — airflow line-of-sight using real collision shapes + transparent tag.
+
+## PortalMod cube-dropper integration
+
+`PortalCubeDropperBridge` recognizes only an open Y-axis endpoint facing DOWN whose complete 2x2 face sits directly above the top four blocks of one PortalMod cube dropper. Recognition is derived from current world blocks every tick and is never persisted. A connected endpoint is exempt from blockage and omitted from external-field construction and outside-mouth intake capture.
+
+While connected, the bridge clears PortalMod's configured/spawned entity state, neutralizes its normal open timer/antline state, and blocks spawn-egg/wrench reconfiguration. Outbound deterministic transport hands an entity directly into the dropper's 1x1 internal chamber instead of trying to cross the closed roof collision. Players are forced to crouch only while they remain in the managed chamber. The door follows a tight chamber occupancy test and closes 10 ticks after the chamber becomes empty. Disconnecting either structure closes/releases the runtime bridge state and returns the dropper to ordinary unconfigured PortalMod behaviour.
 
 ## Force visualization, audio, drops, terminal, and portals (2026-09-10)
 
@@ -277,7 +280,7 @@ A new detection creates/extends a 20-tick pulse, swaps the scanner to its active
 
 ## Tube movement advancements
 
-`VentAdvancements.grantMaxSpeedRide` awards `pneumaticdiversityvents:too_fast_too_factory` while a player is actually traveling at the capped network speed (`abs(netForce) >= MAX_SPEED_FORCE`). Merely entering the handoff while braking does not award it.
+`VentAdvancements.grantMaxSpeedRide` awards `pneumaticdiversityvents:too_fast_too_factory` while a player is actually traveling at the capped network speed (`abs(netForce) >= configured force_units_at_maximum_speed`). Merely entering the handoff while braking does not award it.
 
 A genuine nonzero open-end launch arms the `pneumaticdiversityvents:dont_tell_osha` fall condition. It is awarded only if the player subsequently dies from `DamageSource.FALL`; touching ground, starting elytra flight, creative flight, mounting/riding an entity, leaving the world, or dying from another source clears the armed state first.
 

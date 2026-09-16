@@ -5,6 +5,7 @@ import io.github.bengman.pneumaticdiversityvents.PneumaticDiversityVents;
 import io.github.bengman.pneumaticdiversityvents.server.VentAdvancements;
 import io.github.bengman.pneumaticdiversityvents.server.externalforce.VentExternalFieldManager;
 import io.github.bengman.pneumaticdiversityvents.server.integration.PortalAntlineBridge;
+import io.github.bengman.pneumaticdiversityvents.server.integration.PortalCubeDropperBridge;
 import io.github.bengman.pneumaticdiversityvents.server.sound.VentAmbientSoundManager;
 import io.github.bengman.pneumaticdiversityvents.server.world.VentJunctionManager;
 import io.github.bengman.pneumaticdiversityvents.server.world.VentScannerManager;
@@ -16,6 +17,7 @@ import net.minecraftforge.event.TickEvent;
 import net.minecraftforge.event.entity.EntityLeaveWorldEvent;
 import net.minecraftforge.event.entity.EntityMountEvent;
 import net.minecraftforge.event.entity.ProjectileImpactEvent;
+import net.minecraftforge.event.entity.player.PlayerInteractEvent;
 import net.minecraftforge.event.entity.living.LivingDeathEvent;
 import net.minecraftforge.event.world.WorldEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
@@ -33,6 +35,7 @@ public final class VentTransportHandler {
         VentAdvancements.tick(world);
         // Junction power changes are topology changes, so apply them before any force/path consumer sees this tick.
         VentJunctionManager.tick(world);
+        PortalCubeDropperBridge.tick(world);
         VentExternalFieldManager.tick(world);
         VentTransportManager.tick(world);
         VentScannerManager.tick(world);
@@ -44,7 +47,9 @@ public final class VentTransportHandler {
     @SubscribeEvent
     public static void onEntityLeave(EntityLeaveWorldEvent event) {
         if (!(event.getWorld() instanceof ServerWorld)) return;
-        VentTransportManager.onEntityLeaving((ServerWorld) event.getWorld(), event.getEntity());
+        ServerWorld world = (ServerWorld) event.getWorld();
+        VentTransportManager.onEntityLeaving(world, event.getEntity());
+        PortalCubeDropperBridge.onEntityLeaving(world, event.getEntity());
         if (event.getEntity() instanceof ServerPlayerEntity) VentAdvancements.onPlayerLeaving((ServerPlayerEntity) event.getEntity());
     }
 
@@ -66,6 +71,12 @@ public final class VentTransportHandler {
                 && VentTransportManager.isTransported((ServerWorld) event.getEntity().level, event.getEntity())) event.setCanceled(true);
     }
 
+
+    @SubscribeEvent
+    public static void onRightClickBlock(PlayerInteractEvent.RightClickBlock event) {
+        PortalCubeDropperBridge.onRightClickBlock(event);
+    }
+
     @SubscribeEvent
     public static void onWorldUnload(WorldEvent.Unload event) {
         if (!(event.getWorld() instanceof ServerWorld)) return;
@@ -74,5 +85,6 @@ public final class VentTransportHandler {
         VentTransportManager.onWorldUnload(world);
         VentScannerManager.onWorldUnload(world);
         PortalAntlineBridge.onWorldUnload(world);
+        PortalCubeDropperBridge.onWorldUnload(world);
     }
 }

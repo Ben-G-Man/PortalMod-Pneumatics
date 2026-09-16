@@ -1,6 +1,7 @@
 /* Registers Pneumatic Diversity Vents blocks, items, and particles without client-only dependencies. */
 package io.github.bengman.pneumaticdiversityvents;
 
+import io.github.bengman.pneumaticdiversityvents.config.VentCommonConfig;
 import io.github.bengman.pneumaticdiversityvents.networking.VentNetworkChannel;
 import io.github.bengman.pneumaticdiversityvents.shared.EncasedVentBlock;
 import io.github.bengman.pneumaticdiversityvents.shared.VentBlock;
@@ -22,7 +23,9 @@ import net.minecraft.particles.BasicParticleType;
 import net.minecraft.particles.ParticleType;
 import net.minecraftforge.common.ToolType;
 import net.minecraftforge.eventbus.api.IEventBus;
+import net.minecraftforge.fml.ModLoadingContext;
 import net.minecraftforge.fml.RegistryObject;
+import net.minecraftforge.fml.config.ModConfig;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.minecraftforge.registries.DeferredRegister;
@@ -139,6 +142,7 @@ public class PneumaticDiversityVents {
     }
 
     public PneumaticDiversityVents() {
+        ModLoadingContext.get().registerConfig(ModConfig.Type.COMMON, VentCommonConfig.SPEC);
         VentNetworkChannel.register();
 
         IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();

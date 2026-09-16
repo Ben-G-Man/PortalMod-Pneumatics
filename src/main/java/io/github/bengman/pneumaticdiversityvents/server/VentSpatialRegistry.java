@@ -1,6 +1,7 @@
 /* Persistent per-dimension bridge between world blocks/endpoints and the pure vent network. */
 package io.github.bengman.pneumaticdiversityvents.server;
 
+import io.github.bengman.pneumaticdiversityvents.server.integration.PortalCubeDropperBridge;
 import io.github.bengman.pneumaticdiversityvents.server.integration.VentAntlineConnections;
 import io.github.bengman.pneumaticdiversityvents.server.network.VentConnection;
 import io.github.bengman.pneumaticdiversityvents.server.network.VentEdge;
@@ -67,6 +68,7 @@ public final class VentSpatialRegistry extends WorldSavedData {
     private boolean legacyForceDiscoveryPending;
     private boolean impellerBlockstateSyncPending;
     private long lastImpellerControlTick = Long.MIN_VALUE;
+    private int lastConfiguredImpellerForceUnits = Integer.MIN_VALUE;
     private long lastBlockageTick = Long.MIN_VALUE;
 
     public VentSpatialRegistry() {
@@ -82,6 +84,7 @@ public final class VentSpatialRegistry extends WorldSavedData {
     /* Must be called from the server thread; performs one-time force metadata migration for old saves. */
     public synchronized void prepareForceState(ServerWorld world) {
         discoverLegacyImpellers(world);
+        syncConfiguredImpellerForceUnits();
         syncLegacyImpellerBlockstates(world);
         if (lastImpellerControlTick != world.getGameTime()) {
             lastImpellerControlTick = world.getGameTime();
@@ -91,6 +94,23 @@ public final class VentSpatialRegistry extends WorldSavedData {
         if (lastBlockageTick != world.getGameTime()) {
             lastBlockageTick = world.getGameTime();
             refreshBlockages(world);
+        }
+    }
+
+    private void syncConfiguredImpellerForceUnits() {
+        int configured = VentImpellerBlock.getForceUnits();
+        if (configured == lastConfiguredImpellerForceUnits) return;
+        boolean changed = false;
+        for (VentEdge edge : networkManager.getEdges()) {
+            VentForceSource source = edge.getForceSource();
+            if (source == null || source.getUnits() == configured) continue;
+            source.setUnits(configured);
+            changed = true;
+        }
+        lastConfiguredImpellerForceUnits = configured;
+        if (changed) {
+            networkManager.recalculateAllForces();
+            setDirty();
         }
     }
 
@@ -106,6 +126,7 @@ public final class VentSpatialRegistry extends WorldSavedData {
     }
 
     private boolean isEndpointBlocked(ServerWorld world, VentEdge edge, VentConnection connection) {
+        if (PortalCubeDropperBridge.isConnectedEndpoint(world, this, edge, connection)) return false;
         WorldVentConnection endpoint = requireWorldConnection(connection.getId());
         List<BlockPos> blocks = getBlocks(edge.getId());
         Direction outward = endpointDirection(endpoint, blocks).direction;
@@ -463,7 +484,7 @@ public final class VentSpatialRegistry extends WorldSavedData {
             if (edgeNBT.contains(ATOB_TAG)) edge.setAToB(edgeNBT.getBoolean(ATOB_TAG));
             if (version >= 4 && edgeNBT.contains(FORCE_SOURCE_TAG)) {
                 VentForceSource source = readForceSource(edgeNBT.getCompound(FORCE_SOURCE_TAG));
-                if (version < 8) source = new VentForceSource(VentImpellerBlock.FORCE_UNITS, source.isBaseAToB(), source.getControlMode());
+                if (version < 8) source = new VentForceSource(VentImpellerBlock.getForceUnits(), source.isBaseAToB(), source.getControlMode());
                 edge.setForceSource(source);
             }
 
@@ -584,7 +605,7 @@ public final class VentSpatialRegistry extends WorldSavedData {
             if (edge.getForceSource() != null) continue;
             for (BlockPos block : getBlocks(edge.getId())) {
                 if (world.getBlockState(block).getBlock() instanceof VentImpellerBlock) {
-                    edge.setForceSource(new VentForceSource(VentImpellerBlock.FORCE_UNITS, true));
+                    edge.setForceSource(new VentForceSource(VentImpellerBlock.getForceUnits(), true));
                     break;
                 }
             }
@@ -647,6 +668,7 @@ public final class VentSpatialRegistry extends WorldSavedData {
         worldConnectionsById.clear();
         connectionIdsByKey.clear();
         lastImpellerControlTick = Long.MIN_VALUE;
+        lastConfiguredImpellerForceUnits = Integer.MIN_VALUE;
         lastBlockageTick = Long.MIN_VALUE;
         for (VentEdge edge : new ArrayList<>(networkManager.getEdges())) networkManager.removeEdge(edge.getId());
     }

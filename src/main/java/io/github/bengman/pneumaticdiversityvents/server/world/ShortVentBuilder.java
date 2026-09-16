@@ -26,7 +26,7 @@ public final class ShortVentBuilder extends WorldVentBuilder {
     public ShortVentBuilder(ServerWorld world, VentBlock block, BlockPos origin, VentAxis axis) {
         super(world, new VentEdge());
         this.block = block;
-        if (block instanceof VentImpellerBlock) edge.setForceSource(new VentForceSource(VentImpellerBlock.FORCE_UNITS, true));
+        if (block instanceof VentImpellerBlock) edge.setForceSource(new VentForceSource(VentImpellerBlock.getForceUnits(), true));
         this.origin = new BlockPos(origin.getX(), origin.getY(), origin.getZ());
         this.axis = axis;
         this.blocks = Collections.unmodifiableList(Arrays.asList(VentPlacementUtil.getCornerPositions(origin, axis)));

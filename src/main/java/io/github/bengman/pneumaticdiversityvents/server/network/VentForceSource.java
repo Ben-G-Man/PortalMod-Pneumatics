@@ -4,7 +4,7 @@ package io.github.bengman.pneumaticdiversityvents.server.network;
 import io.github.bengman.pneumaticdiversityvents.shared.VentImpellerControlMode;
 
 public final class VentForceSource {
-    private final int units;
+    private int units;
     private boolean baseAToB;
     private VentImpellerControlMode controlMode;
     private boolean antlineControlled;
@@ -23,6 +23,11 @@ public final class VentForceSource {
 
     public int getUnits() {
         return units;
+    }
+
+    public void setUnits(int units) {
+        if (units <= 0) throw new IllegalArgumentException("Vent force units must be positive.");
+        this.units = units;
     }
 
     public boolean isBaseAToB() {

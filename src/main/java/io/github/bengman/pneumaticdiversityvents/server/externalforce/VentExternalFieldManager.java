@@ -3,6 +3,7 @@ package io.github.bengman.pneumaticdiversityvents.server.externalforce;
 
 import io.github.bengman.pneumaticdiversityvents.PneumaticDiversityVents;
 import io.github.bengman.pneumaticdiversityvents.server.VentSpatialRegistry;
+import io.github.bengman.pneumaticdiversityvents.server.integration.PortalCubeDropperBridge;
 import io.github.bengman.pneumaticdiversityvents.server.transport.VentTransportManager;
 import io.github.bengman.pneumaticdiversityvents.shared.externalforce.VentExternalFieldProfile;
 import io.github.bengman.pneumaticdiversityvents.shared.externalforce.VentExternalFieldProfileProvider;
@@ -151,7 +152,7 @@ public final class VentExternalFieldManager {
     }
 
     private static double particleSpeedScale(int netForce) {
-        double transportScale = VentTransportManager.getTransportSpeed(netForce) / VentTransportManager.BASE_TRANSPORT_SPEED;
+        double transportScale = VentTransportManager.getTransportSpeed(netForce) / VentTransportManager.getBaseTransportSpeed();
         return PARTICLE_SPEED_MULTIPLIER * clamp(transportScale, 0.75D, 4.0D);
     }
 
@@ -330,6 +331,7 @@ public final class VentExternalFieldManager {
         private static Map<UUID, VentExternalField> buildDesiredFields(ServerWorld world, VentSpatialRegistry registry) {
             Map<UUID, VentExternalField> result = new HashMap<>();
             for (VentSpatialRegistry.OpenEndpoint endpoint : registry.getOpenForceEndpoints()) {
+                if (PortalCubeDropperBridge.isConnectedEndpoint(world, registry, endpoint.getEdgeId(), endpoint.getConnectionId())) continue;
                 VentExternalFieldProfile profile = profileForEndpoint(world, endpoint);
                 result.put(endpoint.getConnectionId(), new VentExternalField(endpoint.getConnectionId(), endpoint.getNetworkId(), endpoint.getEdgeId(),
                         endpoint.getCenter(), endpoint.getOutwardDirection(), endpoint.isIntake(), endpoint.getNetForce(), profile, endpoint.getEdgeBlocks()));

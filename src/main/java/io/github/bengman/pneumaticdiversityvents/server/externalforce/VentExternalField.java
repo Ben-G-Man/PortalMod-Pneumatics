@@ -146,7 +146,7 @@ public final class VentExternalField {
         double lateral = Math.max(Math.abs(dot(relative, uAxis)), Math.abs(dot(relative, vAxis))) / Math.max(1.0E-6D, halfWidth);
         double distanceFactor = smooth01(1.0D - distance / profile.getRange());
         double lateralFactor = smooth01(1.0D - clamp(lateral, 0.0D, 1.0D));
-        double networkScale = VentTransportManager.getTransportSpeed(netForce) / VentTransportManager.BASE_TRANSPORT_SPEED;
+        double networkScale = VentTransportManager.getTransportSpeed(netForce) / VentTransportManager.getBaseTransportSpeed();
         double magnitude = profile.getBaseAcceleration() * networkScale * distanceFactor * lateralFactor;
         if (magnitude <= 1.0E-8D) return Vector3d.ZERO;
 
@@ -182,7 +182,7 @@ public final class VentExternalField {
         double axialFactor = 0.35D + 0.65D * smooth01(1.0D - clamp(axialDistance, 0.0D, 1.0D));
         int visible = Integer.bitCount(visibleApertureMask & 0xF);
         double visibilityFactor = visible / 4.0D;
-        double networkScale = VentTransportManager.getTransportSpeed(netForce) / VentTransportManager.BASE_TRANSPORT_SPEED;
+        double networkScale = VentTransportManager.getTransportSpeed(netForce) / VentTransportManager.getBaseTransportSpeed();
         // Keep meaningful pull all the way around the immediate rim while still strengthening toward the aperture.
         double magnitude = profile.getBaseAcceleration() * networkScale * (0.38D + 0.62D * lateralFactor) * axialFactor * visibilityFactor;
         Vector3d target = center.subtract(outward.scale(0.45D)); // Aim slightly through the portal so side objects actually cross the plane.
